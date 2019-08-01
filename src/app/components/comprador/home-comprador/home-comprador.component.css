@@ -1,0 +1,70 @@
+.bannerFinanciar {
+	background-color: #EFF0F0;
+}
+
+#mujerFinanciar {
+	height: auto;
+	width: 100%;
+}
+
+.tituloBannerFinanciar {
+	font-size: 80px;
+	color: #000000;
+	line-height: 80px;
+	margin-top: 77px;
+	font-family: 'Poppins', sans-serif;
+}
+
+.textoBannerFinanciar {
+	font-size: 20px;
+	line-height: 25px;
+	text-align: left;
+	color: #7B7B7B;
+	font-family: 'Poppins', sans-serif;
+}
+
+.botonRegistroFinanciar {
+	border-radius: 39.25px;
+	font-size: 16px;
+	background-color: #415CE5;
+	color: #FFFFFF;
+	border-width: 0;
+	padding-top: 15px;
+	padding-bottom: 10.82px;
+	padding-left: 106.03px;
+	padding-right: 104.98px;
+	margin-top: 36px;
+	margin-bottom: 68.92px;
+	font-family: 'Poppins', sans-serif;
+}
+
+.pasosInvertir {
+	background: #FFFFFF;
+	margin-top: 4vh;
+	margin-bottom: 4vh;
+}
+
+#iconsPasosInvertir {
+	width: 70%;
+	position: relative;
+	margin-top: 4vh;
+	margin-bottom: 4vh;
+	left: 50%;
+	transform: translate(-50%,0);
+}
+
+#titulosPasosInvertir {
+	text-align: center;
+	font-size: 20px;
+	font-family: 'Poppins', sans-serif;
+	color: #000000;
+	margin-top: 2vh;
+	margin-bottom: 2vh;
+}
+
+#textoPasosInvertir {
+	text-align: center;
+	font-size: 16px;
+	font-family: 'Poppins', sans-serif;
+	color: #7B7B7B;
+}
