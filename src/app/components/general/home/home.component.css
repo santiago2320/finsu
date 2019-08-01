@@ -1,0 +1,55 @@
+.bannerHome {
+	background-color: #FC9A0D;
+	padding-right: 52.96px;
+}
+
+#autoAzul {
+	height: auto;
+	width: 100%;
+	margin-top: 5vw;
+}
+
+.tituloBannerHome {
+	margin-top: 68.58px;
+	font-size: 80px;
+	color: #FFFFFF;
+	font-family: 'Poppins', sans-serif;
+}
+
+.textoBannerHome {
+	color: #FFFFFF;
+	font-size: 20px;
+	text-align: left;
+	line-height: 25px;
+	font-family: 'Poppins', sans-serif;
+}
+
+.botonCompradorHome {
+	border-radius: 39.25px;
+	font-size: 16px;
+	background-color: #415CE5;
+	color: #FFFFFF;
+	border-width: 0;
+	padding-top: 15px;
+	padding-bottom: 10.82px;
+	padding-left: 56px;
+	padding-right: 56.3px;
+	margin-top: 36px;
+	margin-bottom: 68.92px;
+	font-family: 'Poppins', sans-serif;
+}
+
+.botonInversionistaHome {
+	border-radius: 39.25px;
+	font-size: 16px;
+	background-color: #000000;
+	color: #FFFFFF;
+	border-width: 0;
+	padding-top: 15px;
+	padding-bottom: 10.82px;
+	padding-left: 56px;
+	padding-right: 56.3px;
+	margin-top: 36px;
+	margin-bottom: 68.92px;
+	font-family: 'Poppins', sans-serif;
+}

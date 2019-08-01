@@ -1,0 +1,45 @@
+.sidenav-container {
+  height: 100vh;
+}
+
+.sidenav {
+  width: 200px;
+}
+
+.sidenav .mat-toolbar {
+  background: #FC9A0D;
+}
+
+.mat-toolbar.mat-primary {
+  position: sticky;
+  top: 0;
+  z-index: 1;
+  background-color: #FC9A0D;
+}
+
+.oculta {
+  display: none;
+}
+
+.spacer {
+  flex: 1 1 auto;
+}
+
+.finsu {
+  margin-left: 15px;
+}
+
+mat-toolbar a{
+  display: inline-block;
+  margin: 0 10px;
+  color: white;
+  text-decoration: none;
+}
+
+/*
+@media (min-width: 768px){
+  .sidenav {
+    display: none;
+  }
+}
+ */
