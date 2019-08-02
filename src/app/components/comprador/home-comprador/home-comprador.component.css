@@ -68,3 +68,43 @@
 	font-family: 'Poppins', sans-serif;
 	color: #7B7B7B;
 }
+
+/* --- ESTILOS TEXTO CONTINUAR -- */
+
+
+.tituloContinuar {
+	font-size: 30px;
+	font-family: 'Poppins', sans-serif;
+	color: #7B7B7B;
+	padding-bottom: 15px;
+}
+
+.relative {
+	position: relative;
+} 
+
+.btnRegistrarme{
+	position: relative;
+    left: 50%;
+    transform: translateX(-50%);
+    border-radius: 39.25px;
+	font-size: 16px;
+	background-color: #415CE5;
+	color: #FFFFFF;
+	border-width: 0;
+	padding-top: 15px;
+	padding-bottom: 10.82px;
+	padding-left: 90.03px;
+	padding-right: 90.98px;
+	margin-top: 36px;
+	margin-bottom: 68.92px;
+	font-family: 'Poppins', sans-serif;
+} 
+
+.textoContinuar {
+	text-align: justify;
+	font-size: 16px;
+	font-family: 'Poppins', sans-serif;
+	color: #7B7B7B;
+
+}
