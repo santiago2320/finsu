@@ -19,6 +19,8 @@ import { RegistroInversionistaComponent } from './components/inversionista/regis
 import { BienvenidoComponent } from './components/general/bienvenido/bienvenido.component';
 import { LoginComponent } from './components/general/login/login.component';
 import { FooterComponent } from './components/general/footer/footer.component';
+import { TableinversionistaComponent } from './components/inversionista/tableinversionista/tableinversionista.component';
+import { TablecompradorComponent } from './components/comprador/tablecomprador/tablecomprador.component';
 
 @NgModule({
   declarations: [
@@ -31,7 +33,9 @@ import { FooterComponent } from './components/general/footer/footer.component';
     RegistroInversionistaComponent,
     BienvenidoComponent,
     LoginComponent,
-    FooterComponent    
+    FooterComponent,
+    TableinversionistaComponent,
+    TablecompradorComponent    
   ],
   imports: [
     BrowserModule,

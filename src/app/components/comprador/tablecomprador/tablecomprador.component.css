@@ -1,0 +1,92 @@
+.contenedortable {
+    background-image: url(../../../../assets/fondos/fondo-3.jpg);
+    background-size: 100% auto;	
+ 
+  }
+  
+  
+  .row {
+    border: #000000;
+  }
+  
+  .tablecontenido{
+    margin-left: 5vw;
+    margin-top: 5vw;
+    background:#415CE5;
+    border-radius: 30px;
+  }
+  
+  .tablecontenidodos{
+    margin-left: 15vw;
+    margin-top: 5vw;
+    background: #F5950C;
+    border-radius: 30px;
+    width: 40vw;
+    
+  }
+  
+  .tableposicion{
+    margin-left: 1vw;
+  }
+  
+  .titulotabla{
+    position: relative;
+    text-align: center;
+    font-size: 26px;
+    font-weight: bold;
+    margin-top: 2vw;
+  }
+  
+  .subtitulo{
+    font-size: 16px;
+    margin-left: 1vw; 
+    margin-top: 2vw;
+    color: #fdfdfd;
+  
+  }
+  .valor{
+    font-size: 2vw;
+    margin-left: 1vw;
+    font-weight: bold;
+    color: #fdfdfd;
+  
+  }
+  
+  .table>thead:first-child>tr:first-child>th {
+    border-top: #fcfafa solid;
+    border-left: 5vw;
+    width: 35vw;
+  }
+  
+  .table>tbody>tr>td {
+    border-top: 0px;
+    color: #fdfdfd
+  } 
+  .table>tbody>tr>th{
+    border-top: 0px;
+    color: #fdfdfd
+  } 
+  .table>thead>tr>th {
+    border-bottom: 0px;
+    color: #fdfdfd
+  } 
+
+  .table {
+    width: 100%;
+    
+  }
+  .btnvolver {
+    text-align: center;
+    margin-left: 15vw;
+    border-radius: 3vw;
+    color: #fdfdfd;
+    background-color: #000000;
+  }
+  
+  .btninversion {
+    text-align: center;
+    margin-top: 2vw;
+    color: #fdfdfd;
+    border-radius: 3vw; 
+  }
+  
