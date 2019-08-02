@@ -1,10 +1,26 @@
+.sectionIn {
+	background: url("../../../../assets/fondos/fondo-6.jpg");
+	background-size: 100% auto;	
+	background-repeat: no-repeat;
+}
+
 .bannerFinanciar {
 	background-color: #EFF0F0;
+	position: relative;
 }
 
 #mujerFinanciar {
 	height: auto;
-	width: 100%;
+	width: 45vw;
+	position: absolute;
+	right: 0;
+	bottom: 0;	
+}
+
+@media only screen and (max-width: 991px){
+	#mujerFinanciar {
+		visibility: hidden;
+	}
 }
 
 .tituloBannerFinanciar {
@@ -38,8 +54,7 @@
 	font-family: 'Poppins', sans-serif;
 }
 
-.pasosInvertir {
-	background: #FFFFFF;
+.pasosInvertir {	
 	margin-top: 4vh;
 	margin-bottom: 4vh;
 }

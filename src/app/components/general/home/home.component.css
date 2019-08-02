@@ -1,13 +1,28 @@
+.sectionIn {
+	background: url("../../../../assets/fondos/fondo-home.jpg");
+	background-size: 100% auto;	
+}
+
 .bannerHome {
 	background-color: #FC9A0D;
 	padding-right: 0;
+	position: relative;
 }
 
 #autoAzul {
 	height: auto;
-	width: 100%;
-	margin-top: 1vw;
+	width: 40vw;
+	position: absolute;
+	right: 5vw;
+	bottom: 0;
 }
+
+@media only screen and (max-width: 991px){
+	#autoAzul {
+		visibility: hidden;
+	}
+}
+
 
 #containerBannerH {
    max-width: 90vw;
@@ -113,7 +128,7 @@
 	position: relative;
 	padding: 0px 0px;
 	top: -4vw;
-	z-index: -1;
+	
 }
 
 .textoComoLo {
@@ -142,7 +157,7 @@
     margin-left: auto;
     margin-right: auto;
     width: 90%;
-    background: rgb(255, 255, 255);
+    
     margin-top: 10px;
 }
 .infoBlock2{
@@ -227,7 +242,7 @@ a:hover {
  .img-sectiondos {
   position: relative;   
   border-radius: 65px 0px 0px 65px;
-  left: 1.5vw;
+  left: 1.1vw;
   
  }
 @media only screen and (max-width: 575px){
@@ -245,9 +260,7 @@ a:hover {
 
 /* -- CARACTERISTICAS -- */
 
-.caracteristicasHome {
-	background-color: #FCECD5;     
-}
+
 
 #allCaracHome {
 	margin-top: 10vh;
