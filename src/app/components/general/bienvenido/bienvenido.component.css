@@ -1,0 +1,60 @@
+
+.tituloBienvenido {
+	font-size: 30px;
+	font-family: 'Poppins', sans-serif;
+	color: black;
+	padding-bottom: 15px;
+}
+
+
+.textoContinuar {
+	text-align: justify;
+	font-size: 16px;
+	font-family: 'Poppins', sans-serif;
+	color: #7B7B7B;
+
+}
+
+.vspace {
+	height: 185px;
+}
+
+.marginBtn {
+	margin-left: 7%;
+}
+
+.botonCompradorBienvenido {
+	border-radius: 39.25px;
+	font-size: 16px;
+	background-color: #415CE5;
+	color: #FFFFFF;
+	border-width: 0;
+	padding-top: 15px;
+	padding-bottom: 10.82px;
+	padding-left: 56px;
+	padding-right: 56.3px;
+	margin-top: 36px;	
+	font-family: 'Poppins', sans-serif;
+}
+
+.botonInversionistaBienvenido {
+	border-radius: 39.25px;
+	font-size: 16px;
+	background-color: #000000;
+	color: #FFFFFF;
+	border-width: 0;
+	padding-top: 15px;
+	padding-bottom: 10.82px;
+	padding-left: 56px;
+	padding-right: 56.3px;
+	margin-top: 36px;
+	font-family: 'Poppins', sans-serif;
+}
+
+
+
+@media (min-width: 990px) and (max-width: 1200px) {
+	.marginBtn {
+		margin-left: 2%;
+	}
+}

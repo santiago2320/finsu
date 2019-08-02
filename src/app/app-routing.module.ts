@@ -9,13 +9,14 @@ import { BienvenidoComponent } from './components/general/bienvenido/bienvenido.
 import { LoginComponent } from './components/general/login/login.component';
 
 const routes: Routes = [
+	{path:"", redirectTo:"/home", pathMatch: 'full'},
 	{path:"home", component:HomeComponent},
 	{path:"comprador", component:HomeCompradorComponent},
 	{path:"inversionista", component:HomeInversionistaComponent},
 	{path:"registroComprador", component:HomeInversionistaComponent},
 	{path:"registroInversionista", component:HomeInversionistaComponent},
-	{path:"bienvenido", component:HomeInversionistaComponent},
-	{path:"login", component:HomeInversionistaComponent}
+	{path:"bienvenido", component:BienvenidoComponent},
+	{path:"login", component:LoginComponent}
 ];
 
 @NgModule({
