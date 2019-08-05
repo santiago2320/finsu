@@ -1,0 +1,45 @@
+.contenedorform {
+    margin-top: 8vw; 
+    margin-left:  10vw;
+    
+  }
+  .form {
+    border: solid #111111;
+  }
+  .form-control {
+    border-radius: 20px;
+  }
+  .btn {
+    margin-top: 2vw;
+    border-radius: 20px;
+  }
+  .btnforminversionista {
+    position: relative;
+    left: 12%;
+    
+  }
+  .botonregistrar {
+    background-color: #415CE5;
+  }
+  .botoninicar{
+    background-color: rgb(7, 7, 7);
+    border-color:  rgb(7, 7, 7);
+  }
+  .btniniciar {
+    position: relative;
+    left: 70%;
+    transform:translate(-50%,0);
+    
+   
+  }
+  .btncancelar {
+    position: relative;
+    left: 70%;
+    transform:translate(-50%,0);
+    margin-top: -20px;
+  
+  }
+  .titleform {
+    margin: 10px;
+    text-align: center;
+  }
