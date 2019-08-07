@@ -111,6 +111,7 @@
 	text-align: center;
 	margin-bottom: 7vh;
 	margin-top: 3vh;
+	font-weight: bold 900;
 }
 
 #iconosComo {
@@ -181,9 +182,16 @@
     margin-left: auto;
     margin-right: auto;
 }
-.textouno {
+.parrafoinfouno {
     margin-left: 5vw;
-    font-size: 16px;
+	font-size: 16px;
+	color: #7B7B7B;
+}
+.parrafoinfodos{
+    position: relative;
+    font-size: 17px;
+	left: -5vw;
+	color: #7B7B7B;
 }
 .tituloInfo{
     font-size: 30px;
@@ -194,11 +202,6 @@
     font-size: 30px;
     font-weight: bold;
     margin-left: -5vw;
-}
-.parrafoInfo{
-    position: relative;
-    font-size: 17px;
-    left: -5vw;
 }
 
 .container-medio{
@@ -275,7 +278,8 @@ a:hover {
 .aliadosTitulo {
 	font-family: 'Poppins', sans-serif;
 	font-size: 30px;
-	color: #000000;		
+	color: #000000;	
+	font-weight: 900;	
 }
 
 #imgCarac {

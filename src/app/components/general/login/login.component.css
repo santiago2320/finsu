@@ -1,0 +1,28 @@
+
+
+#gridiniciarsesion{
+    display: grid;
+    grid-template-columns: 30fr 40fr 30fr;
+    border: solid rgb(181, 247, 1);
+    grid-gap: 5px;
+}
+#contenedoriniciar {
+    display: grid;
+    border: solid #5937f1;
+    grid-template-columns: 1fr;
+    grid-gap: 10px;
+}
+#contenedorformdos {
+    display: grid;
+    grid-template-columns: 5fr;
+    grid-gap: 10px;
+    border: solid  #2ef51c;
+}
+#forminiciar {
+    display:grid;
+    grid-template-columns: 5fr 10fr 5fr;
+}
+.celda{
+    
+    border:2px solid red;
+}
