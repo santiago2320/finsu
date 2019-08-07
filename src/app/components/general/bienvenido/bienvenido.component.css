@@ -58,3 +58,68 @@
 		margin-left: 2%;
 	}
 }
+
+
+#gridcontainer {
+    display: grid;
+    grid-template-columns: 20fr 87fr 45fr;
+
+    background-color: rgb(243, 247, 247);
+    grid-gap: 10px;
+}
+
+#contenedor {
+    display: grid;
+
+    grid-template-columns: 1fr;
+    grid-gap: 10px;
+}
+#contenedorform {
+    display: grid;
+    grid-template-columns: 7fr 2fr;
+    grid-gap: 10px;
+}
+#form {
+    display: grid;
+    grid-template-columns: 1fr;
+}
+#btn {
+    display: grid;
+    grid-template-columns: 2fr 10fr 2fr; 
+}
+#titulo {
+    font-family: 'Poppins', sans-serif; 
+    font-weight: bold;
+    font-size: 24px;  
+}
+#txtcuerpo {
+    font-family: 'Poppins', sans-serif;
+    font-size: 15px;
+    color: rgb(124, 124, 124)
+}
+.seleccion {
+    width: 100%;
+    border-radius: 20px;
+    margin-bottom: 5px;
+    padding: 5px;
+    font-family: 'Poppins', sans-serif;
+    font-size: 14px;
+    color: rgb(124, 124, 124)
+}
+.textcuenta {
+    width: 100%;
+    border-radius: 20px;
+    padding: 5px;
+    margin-bottom: 20px;
+    font-family: 'Poppins', sans-serif;
+    font-size: 14px;
+}
+.celda{
+    
+    border:2px solid red;
+}
+.btnlisto {
+    background-color: #415CE5;
+    color: #ffffff;
+    border-radius: 20px;
+}
