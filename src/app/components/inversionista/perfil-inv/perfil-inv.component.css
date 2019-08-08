@@ -1,0 +1,71 @@
+.contenedorform {
+    margin-top: 8vw; 
+    margin-left:  10vw;
+    
+  }
+  .form {
+    border: solid #111111;
+  }
+  .form-control {
+    border-radius: 20px;
+    font-size: 14px;
+    color: #7B7B7B;
+  }
+  .btn {
+    margin-top: 2vw;
+    border-radius: 20px;
+  }
+  .btnformcomprador {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    
+  }
+  .botonregistrar {
+    background-color: #415CE5;
+    /*padding-top: 5px;
+    padding-bottom: 8.82px;*/
+    padding-left: 99.25px;
+    padding-right: 99.25px;
+    border-radius: 39px;
+  }
+
+  .formRegistro {
+    line-height: 1;
+    margin-left: 24px;
+    margin-top: 23px;
+    margin-right: 40px;
+  }
+
+  .paddingInput {
+    padding-bottom: 18px;
+    padding-top: 18px;
+    padding-left: 30px;
+  }
+
+  .paddingBtn {
+    padding-bottom: 12px;
+    padding-top: 12px;
+  }
+
+    .botoniniciar {
+    background-color:#000000;
+    border-color: #000000;
+    color: #ffffff;
+    /*padding-top: 5px;
+    padding-bottom: 7.82px;*/
+    padding-left: 92.25px;
+    padding-right: 98.25px;
+    border-radius: 39px;
+  }
+ 
+  .btniniciar {
+      margin-top: 45px;
+      margin-bottom: 10px;
+  }
+  .btncancelar {
+    
+  }
+  .titleform {
+    margin: 10px;
+    
+  }
