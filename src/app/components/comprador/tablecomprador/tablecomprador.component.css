@@ -1,9 +1,26 @@
 .contenedortable {
-    background-image: url(../../../../assets/fondos/fondo-3.jpg);
-    background-size: 100% auto;	
+    /*background-image: url(../../../../assets/fondos/fondo-6.jpg);
+    background-size: 100% auto;	*/
+    padding-bottom: 60px;
  
   }
-  
+
+  .headTableComp {
+    display: grid;
+    grid-template-columns: 60% 40%;
+    padding-left: 4vw;
+    padding-right: 4vw;
+  }
+
+  .col1 {
+    width: 60%;
+    font-weight: 400;
+  }
+
+  .col2 {
+    width: 40%;
+    font-weight: 400;
+  }
   
   .row {
     border: #000000;
@@ -17,8 +34,9 @@
   }
   
   .tablecontenidodos{
-    margin-left: 15vw;
-    margin-top: 5vw;
+    margin-top: 4vw;
+    padding-bottom: 45px;
+    padding-top: 45px;
     background: #F5950C;
     border-radius: 30px;
     width: 40vw;
@@ -26,14 +44,14 @@
   }
   
   .tableposicion{
-    margin-left: 1vw;
+    padding-left: 4vw;
+    padding-right: 4vw;
   }
   
   .titulotabla{
     position: relative;
     text-align: center;
-    font-size: 26px;
-    font-weight: bold;
+    
     margin-top: 2vw;
   }
   
@@ -45,7 +63,6 @@
   
   }
   .valor{
-    font-size: 2vw;
     margin-left: 1vw;
     font-weight: bold;
     color: #fdfdfd;
@@ -55,16 +72,22 @@
   .table>thead:first-child>tr:first-child>th {
     border-top: #fcfafa solid;
     border-left: 5vw;
-    width: 35vw;
   }
   
   .table>tbody>tr>td {
     border-top: 0px;
-    color: #fdfdfd
+    color: #fdfdfd;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+    font-size: 20px;
+
   } 
   .table>tbody>tr>th{
     border-top: 0px;
-    color: #fdfdfd
+    color: #fdfdfd;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+    font-size: 16px;
   } 
   .table>thead>tr>th {
     border-bottom: 0px;

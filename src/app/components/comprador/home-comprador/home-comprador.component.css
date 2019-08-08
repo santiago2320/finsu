@@ -1,6 +1,6 @@
 .sectionIn {
 	background: url("../../../../assets/fondos/fondo-6.jpg");
-	background-size: 100% auto;	
+	background-size: cover;	
 	background-repeat: no-repeat;
 }
 
@@ -55,7 +55,7 @@
 }
 
 .pasosInvertir {	
-	margin-top: 4vh;
+	padding-top: 4vh;
 	margin-bottom: 4vh;
 }
 

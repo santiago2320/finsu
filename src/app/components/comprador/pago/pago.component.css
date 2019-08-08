@@ -1,0 +1,202 @@
+.container {
+	background-color: #F5F5F5;
+}
+
+.pago {
+	font-family: 'Poppins', sans-serif;	
+}
+
+#tituloPago {	
+	text-align: center;
+	font-size: 30px;
+	margin-bottom: 74px;
+	margin-top: 40px;
+
+}
+
+#cardss {
+	margin-bottom: 28px;
+}
+
+#confirmarPagar {	
+	border-radius: 30px;
+	background-color: #FFFFFF;	
+	font-size: 16px;
+	padding-left: 33px;
+	padding-right: 33px;
+	position: relative;
+}
+
+#margConfParg {
+	padding-right: 3vw;
+}
+
+.MpagoIcon {
+	height: 35px;
+	width: 60px;
+	position: absolute;
+	top: 30px;		
+	right: 0px;
+}
+
+.radioContainer {
+	display: inline-block;
+	position: relative;
+	cursor: pointer;
+	user-select: none;
+	padding-left: 80px;
+	margin-bottom: 53.9px;
+	margin-top: 38px;
+	font-family: 'Poppins', sans-serif;	
+	font-size: 16px;
+	color: #7B7B7B;	
+}
+
+.radioContainer input {
+	display: none;
+}
+
+.radioContainer .circle {
+	display: inline-block;
+	width: 25px;
+	height: 25px;
+	border: 3px solid #000000;
+	position: absolute;
+	left: 0;
+	top: 0;
+	border-radius: 50%;
+}
+
+.radioContainer input:checked + .circle {
+	background-color: white;	
+}
+
+.radioContainer input:checked + .circle:after{
+	content: "";
+	height: 13px;
+	width: 13px;
+	background-color: #000000;
+	border-radius: 50%;
+	left: 50%;
+	top: 50%;
+	transform: translate(-51%,-51%);
+	position: absolute;
+}
+
+
+
+#rad {
+	margin-right: 50px;	
+}
+
+#conf {	
+	border-bottom: 1px solid #A8A8A8;
+	margin-top: 41px;
+	padding-bottom: 23px;	
+}
+
+#pagoPor {
+	font-size: 20px;
+	padding-left: 6vw;
+	margin-top: 20px;
+}
+
+#tx {
+	color: #A8A8A8;
+	margin-top: 3.5px;
+	margin-bottom: 3.5px;
+}
+
+#valssCont {
+	padding-left: 0px;	
+}
+
+.vals {
+	position: relative;
+	text-align: right;
+}
+
+.titPa {
+	margin-bottom: 28px;
+}
+
+#noPad {
+	padding-left: 0px;
+}
+
+#contBtns {
+	position: relative;
+	width: 100%;
+}
+
+.btns {
+	position: relative;
+	left: 50%;
+	transform: translate(-50%,0%);
+}
+
+@media only screen and (min-width: 992px) {
+	#btnAgregarMb {
+		position: relative;
+		border-radius: 39.25px;
+		border-width: 0;
+		color: #FFFFFF;
+		background-color: #000000;
+		padding-right: 93px;
+		padding-left: 93px;
+		padding-top: 16px;
+		padding-bottom: 11.6px;
+		float: right;
+		margin-top: 28px;
+		margin-bottom: 28px;
+	}
+
+
+	#btnPagarrb {
+		position: relative;		
+		border-radius: 39.25px;
+		border-width: 0;
+		color: #FFFFFF;
+		background-color: #415CE5;
+		padding-right: 184px;
+		padding-left: 184px;
+		padding-top: 16px;
+		padding-bottom: 11.6px;
+		margin-top: 28px;
+		margin-bottom: 28px;
+	}
+}
+
+@media only screen and (max-width: 991px) {
+	#btnAgregarMb {
+		position: relative;
+		border-radius: 39.25px;
+		border-width: 0;
+		color: #FFFFFF;
+		background-color: #000000;
+		padding-right: 93px;
+		padding-left: 93px;
+		padding-top: 16px;
+		padding-bottom: 11.6px;	
+		left: 50%;
+		transform: translate(-50%,0);
+		margin-top: 28px;
+		margin-bottom: 28px;
+	}
+
+	#btnPagarrb {
+		position: relative;		
+		border-radius: 39.25px;
+		border-width: 0;
+		color: #FFFFFF;
+		background-color: #415CE5;
+		padding-right: 184px;
+		padding-left: 184px;
+		padding-top: 16px;
+		padding-bottom: 11.6px;
+		left: 50%;
+		transform: translate(-50%,0);
+		margin-top: 28px;
+		margin-bottom: 28px;
+	}
+}

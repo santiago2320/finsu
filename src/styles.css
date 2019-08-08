@@ -11,6 +11,34 @@ body {
   margin: 0px;
 }
 
+/*TEXT STYLES*/
+
+.popRegular {
+	font-family: 'Poppins', sans-serif;
+	font-weight: 400;
+}
+
+.popSemibold {
+	font-family: 'Poppins', sans-serif;
+	font-weight: 600;
+}
+
+.size16 {
+	font-size: 16px;
+}
+
+.size20 {
+	font-size: 20px;
+}
+
+.size30 {
+	font-size: 30px;
+}
+
+.size35 {
+	font-size: 35px;
+}
+
 /*SIDE BAR STYLES*/
 
 .sideBarLayout {
@@ -22,6 +50,7 @@ body {
 	background-color: #F5F5F5;
 	grid-column-start: 2;
 	padding-bottom: 40px;
+	height: 100vh;
 }
 
 
