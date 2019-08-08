@@ -1,0 +1,97 @@
+
+
+.celda {
+	/*border: 2px solid red;*/
+}
+
+/*ESTILOS DE LA GRID DE INVERSIONES*/
+
+.gridCell {
+	display: grid;
+	grid-template-columns: 1fr;
+	
+	grid-template-rows: auto 16%;
+	border-radius: 39.25px;
+	padding-bottom: 25px;
+}
+
+.orange {
+	background-color: #FAC06B;
+}
+
+.blue1 {
+	background-color: #B3BFFD;
+}
+
+.blue2 {
+	background-color: #7C91FC;
+}
+
+.gridDate {
+	text-align: center;
+	align-self: center;
+	font-size: 30px;
+	font-family: 'Poppins', sans-serif;
+	color: white;
+	font-weight: 300;
+	/*background-color: green;
+	border-radius: 39.25px;*/
+}
+
+.botonGrid{
+	background-color: #415CE5;
+	color: #FFFFFF;
+	font-size: 16px;
+	font-family: 'Poppins', sans-serif;
+	padding-top: 15px;
+	padding-bottom: 10.82px;
+	width: -webkit-fill-available;
+	margin-right: 25px;
+	margin-left: 25px;
+	border-radius: 39.25px;
+}
+
+.tituloGrid {
+	font-size: 30px;
+	font-family: 'Poppins', sans-serif;
+	color: black;
+	margin-top: 40px;
+	margin-bottom: 40px;
+}
+
+
+
+#financiaciones {
+	display: grid;
+	grid-template-columns: 1fr;
+	padding-right: 62px;
+	padding-left: 62px;
+	line-height: 1;
+}
+
+#cellB {
+	display: grid;
+	grid-template-columns: repeat(auto-fit,minmax(230px,1fr));
+	grid-gap: 35px;
+	grid-auto-rows: 300px;
+}
+
+.gridCellAprobar {
+	display: grid;
+	grid-template-columns: 1fr;
+	grid-template-rows: 30% auto 16%;
+	border-radius: 39.25px;
+	padding-bottom: 25px;
+}
+
+.gridAprobar {
+	background-color: white;
+	text-align: center;
+	font-size: 20px;
+	font-family: 'Poppins', sans-serif;
+	color: #7B7B7B;
+	font-weight: 900;
+	border-radius: 39.25px 39.25px 0px 0px;
+	padding-top: 25px;
+}
+
