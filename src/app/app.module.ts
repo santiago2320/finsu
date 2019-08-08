@@ -38,6 +38,10 @@ import { InversionesComponent } from './components/inversionista/inversiones/inv
 import { VerMasInvComponent } from './components/inversionista/ver-mas-inv/ver-mas-inv.component';
 import { SimularInvComponent } from './components/inversionista/simular-inv/simular-inv.component';
 import { PlanInvComponent } from './components/inversionista/plan-inv/plan-inv.component';
+import { TableinversionistaComponent } from './components/inversionista/tableinversionista/tableinversionista.component';
+import { TablecompradorComponent } from './components/comprador/tablecomprador/tablecomprador.component';
+import { FormInversionistaComponent } from './components/inversionista/form-inversionista/form-inversionista.component';
+import { FormCompradorComponent } from './components/comprador/form-comprador/form-comprador.component';
 
 @NgModule({
   declarations: [
@@ -69,7 +73,11 @@ import { PlanInvComponent } from './components/inversionista/plan-inv/plan-inv.c
     InversionesComponent,
     VerMasInvComponent,
     SimularInvComponent,
-    PlanInvComponent    
+    PlanInvComponent,    
+    TableinversionistaComponent,
+    TablecompradorComponent,
+    FormInversionistaComponent,
+    FormCompradorComponent    
   ],
   imports: [
     BrowserModule,
