@@ -19,6 +19,25 @@ import { RegistroInversionistaComponent } from './components/inversionista/regis
 import { BienvenidoComponent } from './components/general/bienvenido/bienvenido.component';
 import { LoginComponent } from './components/general/login/login.component';
 import { FooterComponent } from './components/general/footer/footer.component';
+import { SidebarCompradorComponent } from './components/comprador/sidebar-comprador/sidebar-comprador.component';
+import { ResumenComponent } from './components/comprador/resumen/resumen.component';
+import { PerfilComponent } from './components/comprador/perfil/perfil.component';
+import { FinanciacionesComponent } from './components/comprador/financiaciones/financiaciones.component';
+import { VerMasComponent } from './components/comprador/ver-mas/ver-mas.component';
+import { SimularComponent } from './components/comprador/simular/simular.component';
+import { PlanComponent } from './components/comprador/plan/plan.component';
+import { PagareComponent } from './components/comprador/pagare/pagare.component';
+import { PagoComponent } from './components/comprador/pago/pago.component';
+import { SidebarInversionistaComponent } from './components/inversionista/sidebar-inversionista/sidebar-inversionista.component';
+import { CuentaBancariaComponent } from './components/inversionista/cuenta-bancaria/cuenta-bancaria.component';
+import { AprobarComponent } from './components/inversionista/aprobar/aprobar.component';
+import { PagoInvComponent } from './components/inversionista/pago-inv/pago-inv.component';
+import { ResumenInvComponent } from './components/inversionista/resumen-inv/resumen-inv.component';
+import { PerfilInvComponent } from './components/inversionista/perfil-inv/perfil-inv.component';
+import { InversionesComponent } from './components/inversionista/inversiones/inversiones.component';
+import { VerMasInvComponent } from './components/inversionista/ver-mas-inv/ver-mas-inv.component';
+import { SimularInvComponent } from './components/inversionista/simular-inv/simular-inv.component';
+import { PlanInvComponent } from './components/inversionista/plan-inv/plan-inv.component';
 
 @NgModule({
   declarations: [
@@ -31,7 +50,26 @@ import { FooterComponent } from './components/general/footer/footer.component';
     RegistroInversionistaComponent,
     BienvenidoComponent,
     LoginComponent,
-    FooterComponent    
+    FooterComponent,
+    SidebarCompradorComponent,
+    ResumenComponent,
+    PerfilComponent,
+    FinanciacionesComponent,
+    VerMasComponent,
+    SimularComponent,
+    PlanComponent,
+    PagareComponent,
+    PagoComponent,
+    SidebarInversionistaComponent,
+    CuentaBancariaComponent,
+    AprobarComponent,
+    PagoInvComponent,
+    ResumenInvComponent,
+    PerfilInvComponent,
+    InversionesComponent,
+    VerMasInvComponent,
+    SimularInvComponent,
+    PlanInvComponent    
   ],
   imports: [
     BrowserModule,
