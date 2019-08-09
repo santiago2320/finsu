@@ -1,0 +1,48 @@
+#inversiones1{
+	display: grid;
+	grid-template-columns: 1fr;
+	margin-right: 62px;
+	margin-left: 62px;
+	line-height: 1;
+}
+
+.titulo {
+	font-size: 30px;
+	font-family: 'Poppins', sans-serif;
+	color: black;
+	margin-top: 40px;
+	margin-bottom: 40px;
+}
+
+.row2 {
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr;
+	grid-gap: 35px;
+	grid-auto-rows: 250px;
+}
+
+.reference {
+	font-size: 30px;
+	font-family: 'Poppins', sans-serif;
+	color: white;
+	font-weight: 300;
+}
+
+.text{
+	color: white;
+	font-family: 'Poppins', sans-serif;
+	/*font-size: 16px;*/
+}
+
+.botonGrid{
+	background-color: #415CE5;
+	color: #FFFFFF;
+	font-size: 16px;
+	font-family: 'Poppins', sans-serif;
+	padding-top: 15px;
+	padding-bottom: 10.82px;
+	width: -webkit-fill-available;
+	margin-right: 25px;
+	margin-left: 25px;
+	border-radius: 20px;
+}
