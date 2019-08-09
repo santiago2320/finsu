@@ -1,6 +1,8 @@
 import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
 import {BrowserAnimationsModule} from '@angular/platform-browser/animations';
+import { Ng5SliderModule } from 'ng5-slider';
+import { FormsModule } from '@angular/forms';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
@@ -88,7 +90,9 @@ import { FormCompradorComponent } from './components/comprador/form-comprador/fo
     MatButtonModule,
     MatSidenavModule,
     MatIconModule,
-    MatListModule
+    Ng5SliderModule,
+    MatListModule,
+    FormsModule
   ],
   providers: [],
   bootstrap: [AppComponent]
