@@ -52,7 +52,7 @@ const routes: Routes = [
 	{path:"inversionista/perfil", component:PerfilInvComponent},
 	{path:"inversionista/inversiones", component:InversionesComponent},
 	{path:"inversionista/verMas", component:VerMasInvComponent},
-	{path:"inversionista/cuentaBancaria", component:CuentaBancariaComponent},
+	{path:"inversionista/cuentabancaria", component:CuentaBancariaComponent},
 	{path:"inversionista/simular", component:SimularInvComponent},
 	{path:"inversionista/plan", component:PlanInvComponent},
 	{path:"inversionista/aprobar", component:AprobarComponent},

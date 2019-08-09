@@ -1,3 +1,36 @@
+
+#gridpagocuota{
+	display: grid;
+	grid-template-columns: 5fr 60fr 15fr;
+	grid-gap: 10px;
+}
+#contenedorpago{
+	display: grid;
+	grid-template-columns: 1fr;
+	grid-gap: 10px;
+	background: rgb(65, 229, 120);
+}
+#primeraseccion {
+	display: grid;
+	grid-template-columns: 10fr 3fr 10fr;
+	grid-gap: 2px;
+}
+
+#metodo {
+	display: grid;
+	grid-template-columns: 2fr 5fr 2fr;
+}
+.celda {
+	border: solid rgb(229, 70, 65);
+}
+
+
+
+
+
+
+
+
 .container {
 	background-color: #F5F5F5;
 }
