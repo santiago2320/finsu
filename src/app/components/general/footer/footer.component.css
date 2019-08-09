@@ -4,6 +4,12 @@ img {
   height: auto;
 }
 
+#logoF {
+  height: 25px;
+  width: auto;
+  margin-left: -4.5vw;
+}
+
 p {
   margin: 0 0 15px;
   color: rgb(250, 250, 250);
