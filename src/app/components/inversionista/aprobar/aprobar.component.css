@@ -1,0 +1,105 @@
+.container {
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    grid-template-rows: auto auto 150px auto auto 180px;
+    font-family: 'Poppins', sans-serif;    
+}
+
+.volvCont {
+    margin-top: 30px;
+}
+
+.volv {
+    grid-column: 1/-1;
+    color: #7B7B7B;
+    font-size: 16px;    
+}
+
+.head {
+    grid-column: 1/-1;
+    font-size: 30px;
+    text-align: center;
+    margin-top: 0px;
+    margin-bottom: 40px;
+}
+
+.tituloPagareC {
+    grid-column: 1/-1;
+    font-size: 28px;
+    background-color: #B3BFFD;
+    text-align: center;
+    color: #FFFFFF;
+    border-radius: 39.25px 39.25px 0px 0px;
+    padding-top: 70px;
+}
+
+.condiciones {
+    grid-column: 1/-1;
+    font-size: 16px;
+    color: #7B7B7B;    
+    background-color: #FFFFFF;
+    padding-right: 48px;
+    padding-left: 48px;
+    padding-top: 40px;
+    padding-bottom: 20px;    
+}
+
+.linkSolicitar {
+    grid-column: 1/-1;
+    border-radius: 0px 0px 39.25px 39.25px;
+    background-color: #FFFFFF; 
+    text-align: center;
+    padding-bottom: 30px; 
+}
+
+.linkSol {    
+    color: #7B7B7B;
+    font-size: 16px;
+    border-bottom: 1px solid #7B7B7B;
+    text-decoration: none;    
+}
+
+.tit {
+    color: #000000;
+}
+
+.btnVerTermCon {
+    grid-column: 1/2; 
+    justify-self: end;
+}
+
+.btnAcpTermCon {
+    grid-column: 2/3;
+    padding-left: 15px;
+}
+
+.botonVerTerminos {
+    border-radius: 39.25px;
+    font-size: 16px;
+    background-color:#000000;
+    color: white;
+    border-width: 0;
+    padding-top: 16.07px;
+    padding-bottom: 11.6px;
+    padding-left: 120px;
+    padding-right: 120px;
+    font-family: 'Poppins', sans-serif;    
+    margin-top: 24.5px;
+    margin-right: 12px;    
+}
+
+.botonAcerptarTerminos {
+    border-radius: 39.25px;
+    font-size: 16px;
+    background-color:#415CE5;
+    color: white;
+    border-width: 0;
+    padding-top: 16.07px;
+    padding-bottom: 11.6px;
+    padding-left: 130px;
+    padding-right: 130px;  
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+    margin-top: 24.5px;
+    margin-left: 12px;
+}

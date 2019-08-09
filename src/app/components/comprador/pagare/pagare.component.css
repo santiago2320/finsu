@@ -1,0 +1,105 @@
+.container {
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    grid-template-rows: auto auto 150px auto 180px;
+    font-family: 'Poppins', sans-serif;    
+}
+
+.volvCont {
+    margin-top: 30px;
+}
+
+.volv {
+    grid-column: 1/-1;
+    color: #7B7B7B;
+    font-size: 16px;    
+}
+
+.head {
+    grid-column: 1/-1;
+    font-size: 30px;
+    text-align: center;
+    margin-top: 0px;
+    margin-bottom: 40px;
+}
+
+.tituloPagareC {
+    grid-column: 1/-1;
+    font-size: 28px;
+    background-color: #B3BFFD;
+    text-align: center;
+    color: #FFFFFF;
+    border-radius: 39.25px 39.25px 0px 0px;
+    padding-top: 70px;
+}
+
+.condiciones {
+    grid-column: 1/2;
+    font-size: 16px;
+    color: #7B7B7B;
+    border-radius: 0px 0px 0px 39.25px;
+    background-color: #FFFFFF;
+    padding-right: 28px;
+    padding-left: 28px;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    margin-bottom: 10px;
+}
+
+.restricciones {
+    grid-column: 2/3;
+    font-size: 16px;
+    color: #7B7B7B;
+    border-radius: 0px 0px 39.25px 0px;
+    background-color: #FFFFFF;
+    padding-right: 42px;
+    padding-left: 16px;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    margin-bottom: 10px;
+}
+
+.tit {
+    color: #000000;
+}
+
+.btnVerTermCon {
+    grid-column: 1/2; 
+    justify-self: end;
+}
+
+.btnAcpTermCon {
+    grid-column: 2/3;
+    padding-left: 15px;
+}
+
+.botonVerTerminos {
+    border-radius: 39.25px;
+    font-size: 16px;
+    background-color:#000000;
+    color: white;
+    border-width: 0;
+    padding-top: 16.07px;
+    padding-bottom: 11.6px;
+    padding-left: 100px;
+    padding-right: 100px;
+    font-family: 'Poppins', sans-serif;    
+    margin-top: 24.5px;
+    margin-right: 12px;    
+}
+
+.botonAcerptarTerminos {
+    border-radius: 39.25px;
+    font-size: 16px;
+    background-color:#415CE5;
+    color: white;
+    border-width: 0;
+    padding-top: 16.07px;
+    padding-bottom: 11.6px;
+    padding-left: 84px;
+    padding-right: 84px;  
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+    margin-top: 24.5px;
+    margin-left: 12px;
+}
