@@ -1,14 +1,15 @@
 
-
+#content {
+    background: url(../../../../assets/fondos/fondo-2.jpg);
+}
 #gridiniciarsesion{
     display: grid;
-    grid-template-columns: 30fr 40fr 30fr;
-    border: solid rgb(181, 247, 1);
+    grid-template-columns: 30fr 40fr 30fr;   
     grid-gap: 5px;
+    margin-top: 100px;
 }
 #contenedoriniciar {
     display: grid;
-    border: solid #5937f1;
     grid-template-columns: 1fr;
     grid-gap: 10px;
 }
@@ -16,13 +17,68 @@
     display: grid;
     grid-template-columns: 5fr;
     grid-gap: 10px;
-    border: solid  #2ef51c;
 }
 #forminiciar {
     display:grid;
-    grid-template-columns: 5fr 10fr 5fr;
+    grid-template-columns: 6fr 9fr 6fr;
 }
-.celda{
-    
-    border:2px solid red;
+#forminiciardos{
+    display: grid;
+    grid-template-columns: 6fr 9fr 6fr;
 }
+#forminiciartres {
+    display: grid;
+    grid-template-columns: 6fr 9fr 6fr;
+}
+#btnform{
+    display: grid;
+    grid-template-columns: 6fr 9fr 6fr;
+}
+#titulo {
+    font-family: 'Poppins', sans-serif;
+    font-weight: bold;
+    text-align: center;
+    font-size: 24px;
+    padding: 10px;
+}
+#inputEmail{
+    border-radius: 20px;
+    margin-bottom: 5px;
+    padding: 20px;
+    border-color: #FFFFFF;
+}
+#inputcontraseña{
+    border-radius: 20px;
+    margin-bottom: 10px;
+    padding: 20px;
+    border-color: #FFFFFF;
+}
+#enlace {
+    font-family: 'Poppins', italic;
+    font-size: 14px;
+    color: #7B7B7B;
+    text-decoration: underline;
+    margin-left: 35px;
+}
+.popRegular{
+    font-size: 14px;
+}
+.botoniniciar{
+    background-color: #415CE5;
+    color: #FFFFFF;
+    border-color: #415CE5;
+    border-radius: 20px;
+    width: 100%;
+    margin-bottom: 5px;
+    margin-top: 13px;
+    padding: 5px;
+}
+.botonregistro{
+    background-color:#000000;
+    color: #FFFFFF;
+    border-color: #000000;
+    border-radius: 20px;
+    width: 100%;
+    padding: 5px;
+}
+
