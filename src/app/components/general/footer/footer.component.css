@@ -18,13 +18,12 @@ p {
 body {
   background: #fff none repeat scroll 0 0;
   color: #444;
-  font-family: 'Open Sans', sans-serif;
+  font-family: 'Poppins', sans-serif;
   font-size: 14px;
   text-align: left;
   overflow-x: hidden;
   line-height: 22px;
-}
-
+}    
 
 
 @media (max-width: 768px) {
@@ -90,6 +89,7 @@ ul {
 }
 .footer-head p {
   color: rgb(241, 236, 236);
+  font-family: 'Poppins', sans-serif;
 }
 
 .foot {
@@ -99,7 +99,7 @@ ul {
 .inputfooter {
   left: 5vw;
   margin-top: 2vw;
-  
+  font-family: 'Poppins', sans-serif;
 
 }
 
@@ -112,6 +112,7 @@ ul {
   color: #fff;
   background-color:#415CE5;
   border-color:none;
+  font-family: 'Poppins', sans-serif;
 }
 
 .enviar
