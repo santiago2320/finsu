@@ -26,15 +26,26 @@
 	grid-template-columns: 2fr 5fr 2fr;
 	padding-top: 6px;
 }
+
+/*.celda {
+	border: solid rgb(229, 70, 65);
+}*/
+
+.container {
+	background-color: #F5F5F5;
+}
+
 #metododos{
 	display: grid;
 	grid-template-columns: 7fr 5fr;
 	padding-top: 22px;
 }
+
 #metodotres {
 	display: grid;
 	grid-template-columns: 7fr 5fr;
 }
+
 #metodocuatro {
 	display: grid;
 	grid-template-columns: 7fr 5fr;
@@ -45,6 +56,7 @@
 	grid-gap: 8px;
 	margin-top: 70px;
 }
+
 #tituloinicial{
 	font-family: 'Poppins', sans-serif;
 	font-weight: bold;
@@ -130,3 +142,138 @@
 
 
 
+
+@media only screen and (min-width: 992px) {
+	#btnAgregarMb {
+		position: relative;
+		border-radius: 39.25px;
+		border-width: 0;
+		color: #FFFFFF;
+		background-color: #000000;
+		padding-right: 93px;
+		padding-left: 93px;
+		padding-top: 16px;
+		padding-bottom: 11.6px;
+		float: right;
+		margin-top: 28px;
+		margin-bottom: 28px;
+	}
+
+
+	#btnPagarrb {
+		position: relative;		
+		border-radius: 39.25px;
+		border-width: 0;
+		color: #FFFFFF;
+		background-color: #415CE5;
+		padding-right: 184px;
+		padding-left: 184px;
+		padding-top: 16px;
+		padding-bottom: 11.6px;
+		margin-top: 28px;
+		margin-bottom: 28px;
+	}
+}
+
+@media only screen and (max-width: 991px) {
+	#btnAgregarMb {
+		position: relative;
+		border-radius: 39.25px;
+		border-width: 0;
+		color: #FFFFFF;
+		background-color: #000000;
+		padding-right: 93px;
+		padding-left: 93px;
+		padding-top: 16px;
+		padding-bottom: 11.6px;	
+		left: 50%;
+		transform: translate(-50%,0);
+		margin-top: 28px;
+		margin-bottom: 28px;
+	}
+
+	#btnPagarrb {
+		position: relative;		
+		border-radius: 39.25px;
+		border-width: 0;
+		color: #FFFFFF;
+		background-color: #415CE5;
+		padding-right: 184px;
+		padding-left: 184px;
+		padding-top: 16px;
+		padding-bottom: 11.6px;
+		left: 50%;
+		transform: translate(-50%,0);
+		margin-top: 28px;
+		margin-bottom: 28px;
+	}
+}
+
+
+
+/*ESTILOS DEL MODAL METODO DE PAGO*/
+
+#grid1{
+    display: grid;
+	grid-template-columns: 1fr;
+	padding: 25px;
+}
+
+#grid2{
+    display: grid;
+	grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+}
+
+#grid3{
+    display: grid;
+	grid-template-columns: 1fr 1fr;
+}
+#grid4{
+    display: grid;
+	grid-template-columns: 1fr 1fr;
+}
+
+.lineModal {
+	border-top: 1px solid #D9D7D7;
+	margin: 15px 20px;
+}
+
+.iconCard {
+	height: 30px;
+	margin-left: 10px;
+	margin-bottom: 25px; 
+	margin-top: 25px; 
+}
+
+.inputModal {
+	margin-bottom: 10px;
+	margin-right: 5px;
+	margin-left: 5px;
+}
+
+#cerrarBtn {
+	font-size: 12px;
+	justify-self: end;
+	cursor: pointer;
+}
+
+#botonPagar {
+	margin-top: 25px;
+	margin-bottom: 10px;
+	margin-left: 35px;
+	margin-right: 35px;
+}
+
+.labelFacturacion {
+	padding-bottom: 10px;
+	padding-left: 20px;
+}
+
+/*.celda {
+	border: 2px solid red;
+}
+
+.divi {
+	border: 2px solid green;
+}
+*/

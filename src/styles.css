@@ -11,6 +11,10 @@ body {
   margin: 0px;
 }
 
+.relative {
+	position: relative;
+}
+
 /*TEXT STYLES*/
 
 .popRegular {
@@ -52,7 +56,7 @@ body {
 .inputFinsu {
 	border: 1px solid #CECECE;
 	border-radius: 39.25px;
-	color: #CECECE;	
+	color: #7E7B7B;	
 	font-family: 'Poppins', sans-serif;
 	font-size: 16px;
 	padding-bottom: 15px;
@@ -158,5 +162,19 @@ body {
 	padding-left: 6%;
 	padding-top: 12px;
 	padding-bottom: 12px;
+}
+
+/*GRID CLASES*/
+
+.gcol2 {
+	grid-column: span 2;
+}
+
+.gcol3 {
+	grid-column: span 3;
+}
+
+.gcol4 {
+	grid-column: span 4;
 }
 

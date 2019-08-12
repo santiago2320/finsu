@@ -57,7 +57,7 @@
 		<div class="celda" id="botones">
 			<div class="celda"></div>
 			<div class="celda">
-			  <button type="submit" class="popRegular btnmetodopago">Agregar un método de pago </button>
+			  <button type="submit" (click)="openLg(content)" class="popRegular btnmetodopago">Agregar un método de pago </button>
 			</div>
 			<div class="celda">
 					<button type="submit" class="popRegular btnpagar">Pagar</button>
@@ -71,3 +71,72 @@
 
 </div>
 
+
+<ng-template #content let-modal>
+  <div class="modal-body">
+    <div id="grid1" class="celda">
+	    <div id="grid2" class="celda">
+	        <div class="divi gcol4">
+	        	<h1 class="popSemibold size20">Agrega un método de pago</h1>
+	        </div>
+	        
+	        <div class="divi"></div>
+	        <div (click)="modal.dismiss('Cross click')" id="cerrarBtn" class="popRegular divi">X Cerrar</div>
+	        <div class="divi">
+	        	<img class="iconCard" src="assets/iconos/mastercard.png">
+	        </div>
+	        <div class="divi">
+	        	<img class="iconCard" src="assets/iconos/visa.png">
+	        </div>
+	        <div class="divi gcol4"></div>
+	        <div class="divi gcol3">
+	        	<input placeholder="Nombre" type="text" [(ngModel)]="nombreTarjeta" class="inputModal inputFinsu">
+	        </div>
+	       
+	        <div class="divi gcol3">
+	        	<input placeholder="Apellido" type="text" [(ngModel)]="apellidoTarjeta" class="inputModal inputFinsu">
+	        </div>
+	        
+	    </div>
+	    <hr class="lineModal">
+	    <div id="grid3" class="celda">
+	        <div class="labelFacturacion divi popRegular size16">
+	        	Información de la tarjeta
+	    	</div>
+	        <div class="divi"></div>
+	        <div class="divi">
+	        	<input placeholder="Número de la tarjeta" type="text" [(ngModel)]="numeroTarjeta" class="inputModal inputFinsu">
+	        </div>
+	        <div class="divi"></div>
+	        <div class="divi">
+	        	<input placeholder="Fecha de vencimiento" type="text" [(ngModel)]="fechaTarjeta" class="inputModal inputFinsu">
+	        </div>
+	        <div class="divi">
+	        	<input placeholder="CVV" type="text" [(ngModel)]="cvvTarjeta" class="inputModal inputFinsu">
+	        </div>
+	    </div>
+	    <hr class="lineModal">
+	    <div id="grid4" class="celda">
+	        <div class="labelFacturacion divi popRegular size16">Información de facturación</div>
+	        <div class="labelFacturacion divi popRegular size16">País de facturación</div>
+	        <div class="divi">
+	        	<input placeholder="Código postal" type="text" [(ngModel)]="infoFacturacion" class="inputModal inputFinsu">
+	        </div>
+	        <div class="divi">
+	        	<div class="inputModal selectContainer relative">
+            		<mat-icon class="selectIcon">keyboard_arrow_down</mat-icon>
+                	<select class="inputFinsu">
+				       <option selected>Colombia</option>
+				       <option value="1">Argentina</option>
+				       <option value="2">Ecuador</option>
+				    </select>
+		        </div>
+	        </div>
+	        <div class="divi gcol2">
+	        	<button id="botonPagar" class="btnFinsuBlue">Pagar</button>
+	        </div>
+	        
+	    </div>
+	</div>
+  </div>
+</ng-template>
