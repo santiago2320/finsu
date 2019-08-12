@@ -1,6 +1,6 @@
-#grid2{
+#gri2Botones{
     display: grid;
-	grid-template-columns: 10% 40% 40% 10%;
+	grid-template-columns: 20% 30% 30% 20%;
     background-color:#F5F5F5;
     padding-bottom: 45px;
 }
@@ -34,4 +34,67 @@
 }
 .celda {
 	/*border: 2px solid red;*/
+}
+
+/*CSS FORM SIMULAR*/
+
+#grid1{
+    display: grid;
+    grid-template-columns: 5% 90% 5%;
+    background-color:#F5F5F5;
+    padding-top: 40px;
+}
+
+#grid2{
+    display: grid;
+    /*grid-template-columns: 1fr;*/
+}
+
+#grid3{
+    display: grid;
+    /*grid-template-columns: 1fr;*/
+    background-color: #FFFFFF;
+    border-radius: 39.25px;
+    padding: 0px 40px;
+    padding-bottom: 35px;
+    margin-bottom:  60px;
+    margin-top: 40px;
+}
+#grid4{
+    display: grid;
+    grid-template-columns: 70% 30%;
+    padding-bottom: 35px;
+}
+#grid5{
+    display: grid;
+    grid-template-columns: 30% 30% 30%;
+}
+/*.celda {
+    border: 2px solid red;
+}
+
+.divi {
+    border: 2px solid green;
+}*/
+
+#tituloSimula {
+    padding-top: 28px;
+}
+
+.sliderFinsu {
+    padding-right:15px;
+}
+
+.selectPorcentaje {
+    margin-right: 12px;
+}
+
+.selectCouta {
+    margin-right: 15px;
+    margin-left: 12px;
+    margin-bottom: 20px;
+}
+
+.labelCouta {
+    margin-left: 12px;
 }
