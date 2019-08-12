@@ -1,4 +1,88 @@
-<div id="grid2" class="celda">
+
+<div id="grid1" class="celda">
+		    <div></div>
+		    <div id="grid2" class="celda">
+		        <div>
+		        	<h3 class="centro popSemibold size30">Ingresa los datos de tu seguro</h3>
+		        </div>
+		        <div id="grid3" class="celda">
+		            <div id="tituloSimula" class="popRegular size16 labelFinsu">
+		            	Ingresa el valor del seguro a financiar
+		            </div>
+		            <div id="grid4" class="celda">
+		                <div class="divi sliderFinsu">
+		                	<ng5-slider (userChange)="actualizarLabel()" [(value)]="minValue" [(highValue)]="maxValue" [options]="options"></ng5-slider>
+		                </div>
+		                <div class="divi">
+		                	<input type="text" [(ngModel)]="labelValue" class="inputFinsu" disabled>
+		                </div>
+		            </div>
+		            <div id="grid5" class="celda">
+		                <div class="divi popRegular size16 labelFinsu">Porcentaje de la couta inicial</div>
+		                <div class="divi gcol2 popRegular size16 labelCouta labelFinsu">Selecciona el número de coutas de tu seguro</div>
+		                <div class="divi">
+		                	<div class="selectContainer relative selectPorcentaje">
+		                		<mat-icon class="selectIcon">keyboard_arrow_down</mat-icon>
+			                	<select class="inputFinsu">
+							       <option selected>20 porciento</option>
+							       <option value="1">opcion1</option>
+							       <option value="2">opcion2</option>
+							    </select>
+		                	</div>		                	
+		                </div>
+		                <div class="divi">
+		                	<div class="selectContainer relative selectCouta">
+		                		<mat-icon class="selectIcon">keyboard_arrow_down</mat-icon>
+			                	<select class="inputFinsu">
+							       <option selected>6 Coutas</option>
+							       <option value="1">opcion1</option>
+							       <option value="2">opcion2</option>
+							    </select>
+		                	</div>
+		                </div>
+		                <div class="divi">
+		                	
+		                </div>
+		                <div class="divi popRegular size16 labelFinsu">Selecciona una compañía de seguros</div>
+		                <div class="divi popRegular size16 labelCouta labelFinsu">Ramo</div>
+		                <div class="divi popRegular size16 labelCouta labelFinsu">Numero de poliza</div>
+		                <div class="divi">
+		                	<div class="selectContainer relative selectPorcentaje">
+		                		<mat-icon class="selectIcon">keyboard_arrow_down</mat-icon>
+			                	<select class="inputFinsu">
+							       <option selected>Allianz</option>
+							       <option value="1">opcion1</option>
+							       <option value="2">opcion2</option>
+							    </select>
+		                	</div>		                	
+		                </div>
+		                <div class="divi">
+		                	<div class="selectContainer relative selectCouta">
+		                		<mat-icon class="selectIcon">keyboard_arrow_down</mat-icon>
+			                	<select class="inputFinsu">
+							       <option selected>Ramo</option>
+							       <option value="1">opcion1</option>
+							       <option value="2">opcion2</option>
+							    </select>
+		                	</div>
+		                </div>
+		                <div class="divi">
+		                	<div class="selectContainer relative selectCouta">
+		                		<mat-icon class="selectIcon">keyboard_arrow_down</mat-icon>
+			                	<select class="inputFinsu">
+							       <option selected>1234124</option>
+							       <option value="1">opcion1</option>
+							       <option value="2">opcion2</option>
+							    </select>
+		                	</div>
+		                </div>
+		            </div>
+		        </div>
+		    </div>
+		    <div></div>
+		</div>
+
+<div id="gri2Botones" class="celda">
     <div class="celda"></div>
     <div class="celda"><button id="boton1">Volver</button></div>
     <div class="celda"><button id="boton2">Simular</button></div>

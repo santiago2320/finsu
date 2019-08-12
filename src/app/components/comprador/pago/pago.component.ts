@@ -15,7 +15,7 @@ export class PagoComponent implements OnInit {
   ngOnInit() {
   }
 
-  openLg(content) {
+  openModal(content) {
     this.modalService.open(content, { size: 'lg',centered: true });
   }
 
