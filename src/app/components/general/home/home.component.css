@@ -111,7 +111,8 @@
 	text-align: center;
 	margin-bottom: 7vh;
 	margin-top: 3vh;
-	font-weight: bold 900;
+	font-weight: 900;
+	color: black;
 }
 
 #iconosComo {
@@ -142,10 +143,12 @@
 	font-size: 16px;
 	color: #FFFFFF;
 	text-align: center;
+	font-weight: 400;
 }
 
 .subtitComoLo {
-	font-size: 20px;	
+	font-size: 20px;
+	font-weight: 600;
 }
 
 #contComoLo {
@@ -186,22 +189,26 @@
     margin-left: 5vw;
 	font-size: 16px;
 	color: #7B7B7B;
+	font-family: 'Poppins', sans-serif;
 }
 .parrafoinfodos{
     position: relative;
     font-size: 17px;
 	left: -5vw;
 	color: #7B7B7B;
+	font-family: 'Poppins', sans-serif;
 }
 .tituloInfo{
     font-size: 30px;
     font-weight: bold;
     margin-left: 5vw;
+    font-family: 'Poppins', sans-serif;
 }
 .tituloInfodos {
     font-size: 30px;
     font-weight: bold;
     margin-left: -5vw;
+    font-family: 'Poppins', sans-serif;    
 }
 
 .container-medio{
@@ -215,7 +222,7 @@
     background-color: #415CE5;
     width: 12vw;
     height: 2.8vw;
-    
+    font-family: 'Poppins', sans-serif;
 
 }
 .btnButton {
@@ -225,7 +232,9 @@
     font-size: 16px;
     background-color: #415CE5;
     width: 12vw;
-    height: 2.8vw;    
+    height: 2.8vw;
+    font-family: 'Poppins', sans-serif;
+        
 }
 
 a:hover {
@@ -268,6 +277,7 @@ a:hover {
 #allCaracHome {
 	margin-top: 10vh;
 	margin-bottom: 20vh;
+	padding: 0;
 }
 
 #aliadosTit {
@@ -293,6 +303,8 @@ a:hover {
 #caracEmpty {
 	height: 100%;
     float: left;
+    width: 4vw;
+    padding: 0;   
 }
 
 #contCaracHome {
@@ -307,9 +319,11 @@ a:hover {
 }
 
 #iconsCaracHome {	
-	
+	padding-right: 0;
+	padding-left: 0;
 	float: left;
-    padding-top: 15px;	
+    padding-top: 15px;
+    margin-right: 2vw;
 }
 
 #titCarac {
@@ -319,6 +333,7 @@ a:hover {
 	color: #000000;
 	margin-top: 15px;
 	margin-bottom: 5px;
+	font-weight: 600;
 }
 
 #textCarac {

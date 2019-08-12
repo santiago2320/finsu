@@ -3,170 +3,145 @@
 	display: grid;
 	grid-template-columns: 5fr 60fr 15fr;
 	grid-gap: 10px;
+	margin-top: 5vh;
 }
 #contenedorpago{
 	display: grid;
 	grid-template-columns: 1fr;
 	grid-gap: 10px;
-	background: rgb(65, 229, 120);
+
 }
 #primeraseccion {
 	display: grid;
 	grid-template-columns: 10fr 3fr 10fr;
 	grid-gap: 2px;
+	margin-top: 5vh;
 }
-
+#seccionpagar {
+	background-color: #ffffff;
+	border-radius: 20px;
+}
 #metodo {
 	display: grid;
 	grid-template-columns: 2fr 5fr 2fr;
+	padding-top: 6px;
 }
+
 /*.celda {
 	border: solid rgb(229, 70, 65);
 }*/
-
-
-
-
-
-
-
 
 .container {
 	background-color: #F5F5F5;
 }
 
-.pago {
-	font-family: 'Poppins', sans-serif;	
+#metododos{
+	display: grid;
+	grid-template-columns: 7fr 5fr;
+	padding-top: 22px;
 }
 
-#tituloPago {	
+#metodotres {
+	display: grid;
+	grid-template-columns: 7fr 5fr;
+}
+
+#metodocuatro {
+	display: grid;
+	grid-template-columns: 7fr 5fr;
+}
+#botones {
+	display: grid;
+	grid-template-columns: 3fr 8fr 8fr 3fr;
+	grid-gap: 8px;
+	margin-top: 70px;
+}
+
+#tituloinicial{
+	font-family: 'Poppins', sans-serif;
+	font-weight: bold;
 	text-align: center;
-	font-size: 30px;
-	margin-bottom: 74px;
-	margin-top: 40px;
-
+	padding: 3px;
 }
-
-#cardss {
-	margin-bottom: 28px;
-}
-
-#confirmarPagar {	
-	border-radius: 30px;
-	background-color: #FFFFFF;	
+#titulometodo{
+	font-family: 'Poppins', sans-serif;
 	font-size: 16px;
-	padding-left: 33px;
-	padding-right: 33px;
-	position: relative;
+	padding-left: 5px;
+	padding: 5px;
+}
+#tituloconfirmar{
+	padding-top: 23px;
+	padding-left: 32px;
 }
 
-#margConfParg {
-	padding-right: 3vw;
+#titulometododos{
+	font-family: 'Poppins', sans-serif;
+	font-weight: bold;
+	color: #3A4249;
 }
-
-.MpagoIcon {
-	height: 35px;
-	width: 60px;
-	position: absolute;
-	top: 30px;		
-	right: 0px;
+#textos {
+	font-family: 'Poppins', sans-serif;
+	color: #A8A8A8;
+	padding-top: 2px;
 }
-
-.radioContainer {
-	display: inline-block;
-	position: relative;
-	cursor: pointer;
-	user-select: none;
-	padding-left: 80px;
-	margin-bottom: 53.9px;
-	margin-top: 38px;
-	font-family: 'Poppins', sans-serif;	
+#txttotal{
+	font-family: 'Poppins', sans-serif;
+	color: #3A4249;
+}
+#txtpagar {
+	font-family: 'Poppins', sans-serif;
 	font-size: 16px;
-	color: #7B7B7B;	
+	color: #7B7B7B;
+	padding-top: 6px;
+}
+#iconmaster {
+	height: 37px;
+}
+.btnmetodopago{
+	border-radius: 39.25px;
+	font-size: 16px;
+    background-color:#000000;
+    color: white;
+	border-width: 0;
+    width: -webkit-fill-available;
+    font-family: 'Poppins', sans-serif;
+	font-weight: 400;
+	padding: 8px;
+}
+.line {
+	margin-right: 33px;
+}
+.btnpagar{
+	border-radius: 39.25px;
+	font-size: 16px;
+    background-color:#415CE5;
+    color: white;
+	border-width: 0;
+    width: -webkit-fill-available;
+    font-family: 'Poppins', sans-serif;
+	font-weight: 400;
+	padding: 8px;
 }
 
-.radioContainer input {
-	display: none;
-}
-
-.radioContainer .circle {
-	display: inline-block;
+.radio {
+	border: solid #000000;
 	width: 25px;
 	height: 25px;
-	border: 3px solid #000000;
-	position: absolute;
-	left: 0;
-	top: 0;
-	border-radius: 50%;
-}
-
-.radioContainer input:checked + .circle {
-	background-color: white;	
-}
-
-.radioContainer input:checked + .circle:after{
-	content: "";
-	height: 13px;
-	width: 13px;
 	background-color: #000000;
-	border-radius: 50%;
-	left: 50%;
-	top: 50%;
-	transform: translate(-51%,-51%);
-	position: absolute;
+	margin-top: 5px;
+	margin-left: 32px;
 }
 
 
 
-#rad {
-	margin-right: 50px;	
-}
 
-#conf {	
-	border-bottom: 1px solid #A8A8A8;
-	margin-top: 41px;
-	padding-bottom: 23px;	
-}
 
-#pagoPor {
-	font-size: 20px;
-	padding-left: 6vw;
-	margin-top: 20px;
-}
 
-#tx {
-	color: #A8A8A8;
-	margin-top: 3.5px;
-	margin-bottom: 3.5px;
-}
 
-#valssCont {
-	padding-left: 0px;	
-}
 
-.vals {
-	position: relative;
-	text-align: right;
-}
 
-.titPa {
-	margin-bottom: 28px;
-}
 
-#noPad {
-	padding-left: 0px;
-}
 
-#contBtns {
-	position: relative;
-	width: 100%;
-}
-
-.btns {
-	position: relative;
-	left: 50%;
-	transform: translate(-50%,0%);
-}
 
 @media only screen and (min-width: 992px) {
 	#btnAgregarMb {
