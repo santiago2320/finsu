@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import { Router } from '@angular/router';
 
 @Component({
   selector: 'app-sidebar-inversionista',
@@ -7,9 +8,12 @@ import { Component, OnInit } from '@angular/core';
 })
 export class SidebarInversionistaComponent implements OnInit {
 
-  constructor() { }
+	isVerMas: boolean = false;
+
+  constructor(private router: Router) { }
 
   ngOnInit() {
+  	this.isVerMas = (this.router.url == "/inversionista/verMas");
   }
 
 }
