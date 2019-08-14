@@ -7,6 +7,7 @@ import { RegistroCompradorComponent } from './components/comprador/registro-comp
 import { RegistroInversionistaComponent } from './components/inversionista/registro-inversionista/registro-inversionista.component';
 import { BienvenidoComponent } from './components/general/bienvenido/bienvenido.component';
 import { LoginComponent } from './components/general/login/login.component';
+import { FaqComponent } from './components/general/faq/faq.component';
 /*Imports Comprador*/
 import { ResumenComponent } from './components/comprador/resumen/resumen.component';
 import { PerfilComponent } from './components/comprador/perfil/perfil.component';
@@ -34,6 +35,7 @@ import { PagoInvComponent } from './components/inversionista/pago-inv/pago-inv.c
 const routes: Routes = [
 	{path:"", redirectTo:"/home", pathMatch: 'full'},
 	{path:"home", component:HomeComponent},
+	{path:"faq", component:FaqComponent},
 	{path:"comprador", component:HomeCompradorComponent},
 	{path:"inversionista", component:HomeInversionistaComponent},
 	{path:"comprador/registroComprador", component:RegistroCompradorComponent},

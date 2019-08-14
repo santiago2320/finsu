@@ -16,26 +16,32 @@
 						<div id="contenedorform">
 							<form  class="celda">
 								<div class="">
-									<select class="seleccion">
-										<option selected>Banco</option>
-										<option value="1">opcion1</option>
-										<option value="2">opcion1</option>
-									</select>
+									<div class="selectContainer relative selectCuenta">
+						                    <mat-icon class="selectIcon">keyboard_arrow_down</mat-icon>
+						                    <select class="inputFinsu">
+								              <option selected>Banco</option>
+								              <option value="1">opcion1</option>
+								              <option value="2">opcion2</option>
+								            </select>
+						            </div>
 								</div>
 								<div class="celda">
-									   <select class="seleccion">
-											   <option selected>Tipo cuenta</option>
-											   <option value="1">opcion1</option>
-											   <option value="2">opcion1</option>
-										</select>
+										<div class="selectContainer relative selectCuenta">
+						                    <mat-icon class="selectIcon">keyboard_arrow_down</mat-icon>
+						                    <select class="inputFinsu">
+								              <option selected>Tipo Cuenta</option>
+								              <option value="1">opcion1</option>
+								              <option value="2">opcion2</option>
+								            </select>
+						                </div>
 								</div>
 								<div class="celda">
-									  <input class="textcuenta" placeholder="Número de cuenta"> 
+									  <input class="inputFinsu" placeholder="Número de cuenta"> 
 								</div>
 								<div  id="btn">
 									   <div class="celda"></div>
 									   <div class="celda">
-									   <button type="button" class="btn   btn-block btnlisto" routerLink="/inversionista/inversiones">Listo</button>
+									   		<button type="button" class="btn   btn-block btnlisto" routerLink="/inversionista/inversiones">Listo</button>
 									   </div>
 									   <div class="celda"></div>
 								   </div>

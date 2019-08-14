@@ -45,6 +45,7 @@ import { TableinversionistaComponent } from './components/inversionista/tableinv
 import { TablecompradorComponent } from './components/comprador/tablecomprador/tablecomprador.component';
 import { FormInversionistaComponent } from './components/inversionista/form-inversionista/form-inversionista.component';
 import { FormCompradorComponent } from './components/comprador/form-comprador/form-comprador.component';
+import { FaqComponent } from './components/general/faq/faq.component';
 
 @NgModule({
   declarations: [
@@ -80,7 +81,8 @@ import { FormCompradorComponent } from './components/comprador/form-comprador/fo
     TableinversionistaComponent,
     TablecompradorComponent,
     FormInversionistaComponent,
-    FormCompradorComponent    
+    FormCompradorComponent,
+    FaqComponent    
   ],
   imports: [
     BrowserModule,
