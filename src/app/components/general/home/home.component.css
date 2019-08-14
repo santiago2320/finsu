@@ -173,7 +173,7 @@
 }
 .gridsecciondos{
 	display: grid;
-	grid-template-columns: 50fr 50fr;
+	grid-template-columns: 50fr 49fr;
 	margin-top: 30px;
 }
 	
@@ -181,6 +181,12 @@
 	font-family: 'Poppins', sans-serif;
 	font-weight: bold;
 	color: #000000;
+}
+.titulosecciondos {
+	font-family: 'Poppins', sans-serif;
+	font-weight: bold;
+	color: #000000;
+	padding-left: 49px;
 }
 
 .parrafo {
@@ -222,10 +228,13 @@
 	opacity: 1;	
 }
 .imgsectiondos{
-	max-width: 100vh;
+	max-width: 100%;
 	opacity: 1;
 }
+.txtsectiondos {
+	padding-left: 49px;
 
+}
 
 @media only screen and (max-width: 575px){
 
