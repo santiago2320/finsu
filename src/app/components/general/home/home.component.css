@@ -16,6 +16,9 @@
 	right: 5vw;
 	bottom: 0;
 }
+.contenidofinanciar{
+	padding-left: 12px;
+}
 
 @media only screen and (max-width: 991px){
 	#autoAzul {
@@ -157,106 +160,73 @@
 
 /* -- EXPLICACION ROLES -- */
 
-.infoBlock{
-    margin-left: auto;
-    margin-right: auto;
-    width: 90%;
-    
-    margin-top: 10px;
-}
-.infoBlock2{
-    margin-left: auto;
-    margin-right: auto;
-    width: 93%;
-    margin-top: 10px;
-}
-.infoBlock2 div{
-    margin-left: auto;
-    margin-right: auto;
-}
 
-.contenedorSection{
-    margin-top: 2%;
+.griduno{
+	display: grid;
+	grid-template-columns: 100fr;
+	grid-gap: 5px;
 }
-.card{
-    padding: 20px;
+.gridseccion {
+	display: grid;
+	grid-template-columns:50fr 50fr;
+	grid-gap: 35px;
 }
-.infoBlock div{
-    margin-left: auto;
-    margin-right: auto;
+.gridsecciondos{
+	display: grid;
+	grid-template-columns: 50fr 50fr;
+	margin-top: 30px;
 }
-.parrafoinfouno {
-    margin-left: 5vw;
-	font-size: 16px;
-	color: #7B7B7B;
+	
+.tituloseccion{
 	font-family: 'Poppins', sans-serif;
+	font-weight: bold;
+	color: #000000;
 }
-.parrafoinfodos{
-    position: relative;
-    font-size: 17px;
-	left: -5vw;
-	color: #7B7B7B;
+
+.parrafo {
 	font-family: 'Poppins', sans-serif;
+	color: #7B7B7B;
+	padding-top: 20px;
+	padding-right: 40px;
 }
-.tituloInfo{
-    font-size: 30px;
-    font-weight: bold;
-    margin-left: 5vw;
-    font-family: 'Poppins', sans-serif;
+.botoninvetir{
+	padding-left: 36%;
+	padding-top: 10px;
 }
-.tituloInfodos {
-    font-size: 30px;
-    font-weight: bold;
-    margin-left: -5vw;
-    font-family: 'Poppins', sans-serif;    
+.btninvertir{
+	font-family: 'Poppins', sans-serif;
+	color: #FFFFFF;
+	border-radius: 20px;
+	border: none;
+	background-color: #415CE5;
+	padding: 6px;
+	width: 13vw;
+	opacity: 1
+}
+.botonfinanciar{
+	padding-left:36%;
+	padding-top: 10px;
+}
+.btnfinanciar {
+	font-family: 'Poppins', sans-serif;
+	color: #FFFFFF;
+	border-radius: 20px;
+	border: none;
+	background-color: #415CE5;
+	padding: 6px;
+	width: 13vw;
+	opacity: 1
+}
+.imgsectionuna {
+	max-width: 100vh;
+	opacity: 1;	
+}
+.imgsectiondos{
+	max-width: 100vh;
+	opacity: 1;
 }
 
-.container-medio{
-    padding: 0px;
-}
-.btnButtondos {
-    color: #fffefe;
-    margin-left: 5.5vw;
-    border-radius: 39.25px;
-    font-size: 16px;
-    background-color: #415CE5;
-    width: 12vw;
-    height: 2.8vw;
-    font-family: 'Poppins', sans-serif;
 
-}
-.btnButton {
-    color: #fffefe;
-    margin-left: 15.5vw;
-    border-radius: 39.25px;
-    font-size: 16px;
-    background-color: #415CE5;
-    width: 12vw;
-    height: 2.8vw;
-    font-family: 'Poppins', sans-serif;
-        
-}
-
-a:hover {
-    color: #fffefe;
-    text-decoration: none;
-    font-size: 16px;
-}
-.img-fluid {
-    max-width: 49vw;   
-}
- .img-sectionuna{
-  position: relative;
-  left: -14vw;
-  border-radius: 0px 65px 65px 0px;
-
-}
- .img-sectiondos {
-  position: relative;   
-  border-radius: 65px 0px 0px 65px;
-  left: 1.1vw;
-  
- }
 @media only screen and (max-width: 575px){
 
 }
