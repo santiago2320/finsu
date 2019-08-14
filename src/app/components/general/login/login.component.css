@@ -3,10 +3,14 @@
     background: url(../../../../assets/fondos/fondo-2.jpg);
 }
 #gridiniciarsesion{
+    background: url(../../../../assets/fondos/fondo-2.jpg);
+    background-size: cover;
+    background-position: center center;
     display: grid;
     grid-template-columns: 30fr 40fr 30fr;   
     grid-gap: 5px;
-    margin-top: 100px;
+    padding-top: 100px;
+    padding-bottom: 45vh;
 }
 #contenedoriniciar {
     display: grid;

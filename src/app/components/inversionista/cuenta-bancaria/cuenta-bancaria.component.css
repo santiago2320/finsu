@@ -1,8 +1,9 @@
 #gridcontainer {
     display: grid;
-    grid-template-columns: 20fr 87fr 45fr;
+    grid-template-columns: 5fr 87fr 23fr;
     background-color: rgb(243, 247, 247);
     grid-gap: 10px;
+    padding-top: 40px;
 }
 
 #contenedor {
@@ -12,7 +13,7 @@
 }
 #contenedorform {
     display: grid;
-    grid-template-columns: 7fr 2fr;
+    grid-template-columns: 24fr 2fr;
     grid-gap: 10px;
 }
 #form {
@@ -31,7 +32,8 @@
 #txtcuerpo {
     font-family: 'Poppins', sans-serif;
     font-size: 15px;
-    color: rgb(124, 124, 124)
+    color: rgb(124, 124, 124);
+    margin-bottom: 5px;
 }
 .seleccion {
     width: 100%;
@@ -55,4 +57,9 @@
     background-color: #415CE5;
     color: #ffffff;
     border-radius: 20px;
+    margin-top: 35px;
+}
+
+.selectCuenta {
+    margin-bottom: 12px;
 }
