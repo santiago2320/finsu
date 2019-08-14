@@ -7,16 +7,16 @@
 			Sofía Torres
 		</div>
 	</div>
-	<div routerLink="/comprador/resumen" class="celda activeItem menuItem">
+	<div routerLink="/comprador/resumen" routerLinkActive="activeItem" class="celda menuItem">
 		Resumen
 	</div>
-	<div routerLink="/comprador/resumen" class="celda menuItem">
+	<div  class="celda menuItem">
 		Métodos de pago
 	</div>
-	<div routerLink="/comprador/perfil" class="celda menuItem">
+	<div routerLink="/comprador/perfil" routerLinkActive="activeItem" class="celda menuItem">
 		Perfil
 	</div>
-	<div routerLink="/comprador/financiaciones" class="celda menuItem">
+	<div routerLink="/comprador/financiaciones" [ngClass]="{activeItem:isVerMas}" routerLinkActive="activeItem" class="celda menuItem">
 		Financiaciones
 	</div>
 </div>
