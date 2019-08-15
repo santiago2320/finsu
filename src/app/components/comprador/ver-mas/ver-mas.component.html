@@ -1,0 +1,76 @@
+<div class="sideBarLayout">
+	<app-sidebar-comprador></app-sidebar-comprador>
+	<!-- ng-content> -->
+	<div class="profileContent" id="verComp">
+		<div id="financiaciones">
+			<div id="grid1">
+				<div class="celda"></div>
+				<div id="grid2" class="celda">
+					<div class="celda titulo">
+						Mis financiaciones
+					</div>
+					<div class="celda text">
+						Financiación Lorem Ipsum Dolor
+					</div>
+					<div class="celda">
+						<div id="grid3">
+							<div class="celda">
+								<div id="grid4">
+									<div class="celda text1">Pendiente por pagar</div>
+									<div></div>
+									<div class="celda text1">Fecha límite de pago</div>
+									<div class="celda text2">$1.500.000</div>
+									<div></div>
+									<div class="celda text1">27/01/2019</div>
+									<div class="celda text1">Siguiente cuota</div>
+									<div></div>
+									<div></div>
+								</div>
+							</div>
+							<div id="grid5" class="celda">
+								<div class="celda text1c">
+									Fecha límite de pago<br>
+									27/01/2019
+								</div>
+								<div class="celda text2c">
+									$1.500.000
+								</div>
+							</div>							
+						</div>						
+					</div>
+				</div>
+			</div>
+			<div>
+				<div class="wrapper">
+
+				 <h1 class="titProceso">Proceso</h1>
+				  
+				<ol class="ProgressBar">
+				  <li class="ProgressBar-step">
+				    <svg class="ProgressBar-icon"><use xlink:href="#checkmark-bold"/></svg>
+				    <span class="ProgressBar-stepLabel">27/01/2019<br>Primer pago<br><div class="precio"><b>$250.000 COP</b></div></span>
+				  </li>
+				  <li class="ProgressBar-step">
+				    <svg class="ProgressBar-icon"><use xlink:href="#checkmark-bold"/></svg>
+				    <span class="ProgressBar-stepLabel">27/01/2019<br>Segundo pago<br><div class="precio"><b>$250.000 COP</b></div></span>
+				  </li>
+				  <li class="ProgressBar-step-last">
+				    <svg class="ProgressBar-icon"><use xlink:href="#checkmark-bold"/></svg>
+				    <span class="ProgressBar-stepLabel">27/01/2019<br>Tercer pago<br><div class="precio"><b>$250.000 COP</b></div></span>
+				  </li>
+				  <li class="ProgressBar-step-no">
+				    <svg class="ProgressBar-icon-no"></svg>
+				    <span class="ProgressBar-stepLabel">27/01/2019<br>Cuarto pago<br><div class="precio"><b>$250.000 COP</b></div></span>
+				  </li>
+				</ol>							  			
+				</div>
+				<svg xmlns="http://www.w3.org/2000/svg">
+				  <symbol id="checkmark-bold" viewBox="0 0 24 24">
+				    <path d="M20.285 2l-11.285 11.567-5.286-5.011-3.714 3.716 9 8.728 15-15.285z"/>
+				  </symbol>
+				</svg>
+			</div>
+		</div>
+	</div>
+	<!-- /ng-content> -->
+</div>

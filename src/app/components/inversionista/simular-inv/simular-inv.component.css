@@ -1,0 +1,110 @@
+#grid2Boton{
+    display: grid;
+	grid-template-columns: 20% 30% 30% 20%;
+    background-color:#F5F5F5;
+    padding-bottom: 45px;
+}
+#boton1{
+    border-radius: 39.25px;
+	font-size: 16px;
+    background-color:#000000;
+    color: white;
+	border-width: 0;
+	padding-top: 16.07px;
+    padding-bottom: 11.6px;
+    width: -webkit-fill-available;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+    margin-top: 24.5px;
+    margin-right: 12px;
+}
+#boton2{
+    border-radius: 39.25px;
+	font-size: 16px;
+    background-color:#415CE5;
+    color: white;
+	border-width: 0;
+	padding-top: 16.07px;
+    padding-bottom: 11.6px;
+    width: -webkit-fill-available;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+    margin-top: 24.5px;
+    margin-left: 12px;
+}
+.celda {
+	/*border: 2px solid red;*/
+}
+
+
+/*CSS FORM SIMULAR*/
+
+#grid1{
+    display: grid;
+    grid-template-columns: 5% 90% 5%;
+    background-color: #F5F5F5;
+    padding-top: 40px;
+}
+
+#grid2{
+    display: grid;
+    /*grid-template-columns: 1fr;*/
+}
+
+#grid3{
+    display: grid;
+    /*grid-template-columns: 1fr;*/
+    background-color: #FFFFFF;
+    border-radius: 39.25px;
+    padding: 10px 45px;
+    padding-bottom: 35px;
+    margin-bottom:  60px;
+    margin-top: 40px;
+}
+
+#grid3 > p {
+    color:#7B7B7B;
+}
+
+#grid4{
+    display: grid;
+    grid-template-columns: 70% 30%;
+    padding-bottom: 35px;
+    padding-top: 25px;
+}
+#grid5{
+    display: grid;
+    grid-template-columns: 30% 40% 30%;
+}
+/*.celda {
+    border: 2px solid red;
+}
+
+.divi {
+    border: 2px solid green;
+}*/
+
+#tituloSimula {
+    padding-top: 28px;
+}
+
+.pFinsu {
+    margin-bottom: 15px;
+}
+
+.sliderFinsu {
+    padding-right:15px;
+}
+
+.selectPorcentaje {
+    margin-right: 12px;
+}
+
+.selectCouta {
+    margin-right: 25%;
+    margin-left: 12px;
+}
+
+.labelCouta {
+    margin-left: 12px;
+}

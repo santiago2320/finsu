@@ -1,0 +1,140 @@
+<div id="gridpagocuota">
+        <div class="celda"></div> 
+          <div id="contenedorpago">
+              <div class="celda">
+                  <h4 id="tituloinicial">Pago por la oportunidad</h4>
+              </div>	
+              <div class="celda" id="primeraseccion">
+                  <div class="celda" id="seccionpagar">
+                      <div class="celda" id="tituloconfirmar">
+                          <p id="titulometodo">Confirmar y pagar</p>
+                          <hr class="line">
+                      </div>
+                      <div class="celda" id="metodo">
+                          <div class="celda">
+                              <input type="radio" id="radiobutton" class="radio">				
+                          </div>
+                          <div class="celda">
+                              <label id="txtpagar">****7625</label>
+                          </div>
+                          <div class="celda">
+                              <img id="iconmaster" src="../../../../assets/iconos/mastecard.png">
+                          </div>
+                      </div>
+                  </div>
+                  <div class="celda"></div>
+                  <div class="celda">
+                  <div class="celda">
+                      <h6 class="celda" id="titulometododos">Pago por la oportunidad</h6>
+                  </div>
+                  <div class="celda" id="metododos">
+                      <div class="celda">
+                          <label id="textos">Subtotal</label>
+                      </div>
+                      <div class="celda">
+                          <label id="textos">$ 1.440.000</label>
+                      </div>			
+                  </div>
+                  <div class="celda" id="metodotres">
+                      <div class="celda">
+                          <label id="textos">Impuestos</label>
+                      </div>
+                      <div class="celda">
+                          <label id="textos">$ 273.600</label>
+                      </div>
+                  </div>
+                  <div class="celda" id="metodocuatro">
+                      <div class="celda">
+                          <label id="txtotal">Total</label>
+                      </div>
+                      <div class="celda">
+                          <label id="txtotal">$ 1.793.600</label>
+                      </div>
+                  </div>
+                  </div>
+              </div>  
+              <div class="celda" id="botones">
+                  <div class="celda"></div>
+                  <div class="celda">
+                    <button (click)="openModal(content)" type="submit" class="popRegular btnmetodopago">Agregar un método de pago </button>
+                  </div>
+                  <div class="celda">
+                          <button type="submit" class="popRegular btnpagar" routerLink="/inversionista/aprobar">Pagar</button>
+                  </div>
+                  <div class="celda"></div>
+              </div> 
+          </div> 
+          
+      
+        <div class="celda"></div>
+      
+      </div>
+      
+  <ng-template #content let-modal>
+  <div class="modal-body">
+    <div id="grid1" class="celda">
+      <div id="grid2" class="celda">
+          <div class="divi gcol4">
+            <h1 class="popSemibold size20">Agrega un método de pago</h1>
+          </div>
+          
+          <div class="divi"></div>
+          <div (click)="modal.dismiss('Cross click')" id="cerrarBtn" class="popRegular divi">X Cerrar</div>
+          <div class="divi">
+            <img class="iconCard" src="assets/iconos/mastercard.png">
+          </div>
+          <div class="divi">
+            <img class="iconCard" src="assets/iconos/visa.png">
+          </div>
+          <div class="divi gcol4"></div>
+          <div class="divi gcol3">
+            <input placeholder="Nombre" type="text" [(ngModel)]="nombreTarjeta" class="inputModal inputFinsu">
+          </div>
+         
+          <div class="divi gcol3">
+            <input placeholder="Apellido" type="text" [(ngModel)]="apellidoTarjeta" class="inputModal inputFinsu">
+          </div>
+          
+      </div>
+      <hr class="lineModal">
+      <div id="grid3" class="celda">
+          <div class="labelFacturacion divi popRegular size16">
+            Información de la tarjeta
+        </div>
+          <div class="divi"></div>
+          <div class="divi">
+            <input placeholder="Número de la tarjeta" type="text" [(ngModel)]="numeroTarjeta" class="inputModal inputFinsu">
+          </div>
+          <div class="divi"></div>
+          <div class="divi">
+            <input placeholder="Fecha de vencimiento" type="text" [(ngModel)]="fechaTarjeta" class="inputModal inputFinsu">
+          </div>
+          <div class="divi">
+            <input placeholder="CVV" type="text" [(ngModel)]="cvvTarjeta" class="inputModal inputFinsu">
+          </div>
+      </div>
+      <hr class="lineModal">
+      <div id="grid4" class="celda">
+          <div class="labelFacturacion divi popRegular size16">Información de facturación</div>
+          <div class="labelFacturacion divi popRegular size16">País de facturación</div>
+          <div class="divi">
+            <input placeholder="Código postal" type="text" [(ngModel)]="infoFacturacion" class="inputModal inputFinsu">
+          </div>
+          <div class="divi">
+            <div class="inputModal selectContainer relative">
+                <mat-icon class="selectIcon">keyboard_arrow_down</mat-icon>
+                  <select class="inputFinsu">
+               <option selected>Colombia</option>
+               <option value="1">Argentina</option>
+               <option value="2">Ecuador</option>
+            </select>
+            </div>
+          </div>
+          <div class="divi gcol2">
+            <button id="botonPagar" class="btnFinsuBlue" >Pagar</button>
+          </div>
+          
+      </div>
+  </div>
+  </div>
+</ng-template>

@@ -1,0 +1,137 @@
+<div class="bannerInvertir">
+	<img id="hombreInvertir" src="assets/img/m2-img-man.png">
+		<div class="container">
+			<div class="row">
+				<div class="col-xs-12 col-sm-12 col-md-12 col-lg-6" id="textoBannerInv">
+					<h1 class="tituloBannerInvertir">
+						<b>Invertir</b>
+					</h1>
+					<h3 class="textoBannerInvertir">
+						Finsu te da oportunidades de invertir en pagarés de compradores de seguros que quieren pagar a cuotas su póliza. En caso de que algún comprador incumpla los plazos, será cancelada la póliza y la aseguradora devolverá el saldo restante.
+					</h3>
+					<div class="col-xs-6">
+						<button class="botonRegistroInvertir" routerLink="/inversionista/registroInversionista">Quiero invertir</button>
+					</div>
+					<div class="col-xs-6">						
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div class="sectionIn">
+		<!-- PASOS INVERTIR -->
+	<div class="pasosInvertir">
+		<div class="container">
+			<div class="row">			
+				<div class="col-6 col-sm-6 col-md-3 col-lg-3">
+					<div class="col-12 col-sm-12 col-md-12 col-lg-12">
+						<img id="iconsPasosInvertir" src="../../assets/iconos/registro-2.png">
+					</div>
+					<div class="col-12 col-sm-12 col-md-12 col-lg-12" id="titulosPasosInvertir">
+						Registro
+					</div>
+					<div class="col-12 col-sm-12 col-md-12 col-lg-12" id="textoPasosInvertir">
+						Ingresa tus datos y crea tu usuario
+					</div>						
+				</div>
+				<div class="col-6 col-sm-6 col-md-3 col-lg-3">
+					<div class="col-12 col-sm-12 col-md-12 col-lg-12">
+						<img id="iconsPasosInvertir" src="../../assets/iconos/simula-inversion.png">
+					</div>
+					<div class="col-12 col-sm-12 col-md-12 col-lg-12" id="titulosPasosInvertir">
+						Simula Inversión
+					</div>
+					<div class="col-12 col-sm-12 col-md-12 col-lg-12" id="textoPasosInvertir">
+						¿Cuánto te gustaría invertir? Proyectamos tu retorno
+					</div>					
+				</div>
+				<div class="col-6 col-sm-6 col-md-3 col-lg-3">
+					<div class="col-12 col-sm-12 col-md-12 col-lg-12">
+						<img id="iconsPasosInvertir" src="../../assets/iconos/verificacion.png">
+					</div>
+					<div class="col-12 col-sm-12 col-md-12 col-lg-12" id="titulosPasosInvertir">
+						Acepta Términos
+					</div>
+					<div class="col-12 col-sm-12 col-md-12 col-lg-12" id="textoPasosInvertir">
+						Adjunta formulario diligenciado   
+					</div>					
+				</div>
+				<div class="col-6 col-sm-6 col-md-3 col-lg-3">
+					<div class="col-12 col-sm-12 col-md-12 col-lg-12">
+						<img id="iconsPasosInvertir" src="../../assets/iconos/oportunidad.png">
+					</div>
+					<div class="col-12 col-sm-12 col-md-12 col-lg-12" id="titulosPasosInvertir">
+						Oportunidad de Inversión
+					</div>
+					<div class="col-12 col-sm-12 col-md-12 col-lg-12" id="textoPasosInvertir">
+						Te informaremos oportunidad de pagarés para invertir
+					</div>					
+				</div>					
+			</div>
+		</div>		
+	</div>
+	<div id="grid1" class="celda">
+		    <div></div>
+		    <div id="grid2" class="celda">
+		        <div>
+		        	<h3 class="centro popSemibold size30">Simula tu Inversión</h3>
+		        </div>
+		        <div id="grid3" class="celda">
+		            <p id="tituloSimula" class="popRegular size16 ">
+						En la mayoría de los casos, la financiación será a 10 cuotas, pero depende la decisión de cada comprador. Según el monto que estés interesado en invertir agruparemos pagarés para avisarte una oportunidad.
+		            </p>
+		            <p class="popRegular size16 labelFinsu">
+		            	
+		            </p>
+		            <div id="grid4" class="celda">
+		                <div class="divi sliderFinsu">
+		                	<ng5-slider (userChange)="actualizarLabel()" [(value)]="minValue" [(highValue)]="maxValue" [options]="options"></ng5-slider>
+		                </div>
+		                <div class="divi">
+		                	<input type="text" [(ngModel)]="labelValue" class="inputFinsu" disabled>
+		                </div>
+		            </div>
+		            <div id="grid5" class="celda">
+		                <div class="divi popRegular size16 labelFinsu"></div>
+		                <div class="divi">
+		                	<button class="btnFinsuBlue" routerLink="/inversionista/simular">Simular Inversión</button>
+		                </div>
+		                <div class="divi"></div>
+		                
+		            </div>
+		        </div>
+		    </div>
+		    <div></div>
+	</div>
+	<app-tableinversionista></app-tableinversionista>
+	<div class="textContinuar">
+		<div class="container">
+			<div class="row">
+				<div class="col-12 col-sm-12 col-md-12 col-lg-12">
+					<h2 class="tituloContinuar">
+						<b>Continúa con el proceso para invertir</b>
+					</h2>
+				</div>
+				<div class="col-12 col-sm-12 col-md-12 col-lg-12 textoContinuar">
+					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quiepakis nostrud exercitation ullamco laboris nsi ut aliquip ex ea comepmodo consetquat. Duis aute irure dolor in reprehenderit in voluptate velit esse cfgillum dolore eutpe fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt inpeku culpa qui officia deserunt mollit anim id est laborum. </p>
+					<p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium poeyi doloremque laudantium, totam rem aperiam, eaque ipsa quae apsb illo inventore veritatis et quasi architecto beiatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, seprid quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliqueam quaerat voluptatem.</p>
+				</div>
+				<div class="col-5 col-sm-5 col-md-5 col-lg-5">		
+				</div>
+				<div class="col-2 col-sm-2 col-md-2 col-lg-2 relative">
+					<button class="btnRegistrarme">Registrarme</button>
+				</div>
+				<div class="col-5 col-sm-5 col-md-5 col-lg-5">
+				</div>
+				
+				
+			</div>
+		</div>
+	</div>
+	</div>
+
+	
+	
+
+	
+	<app-footer></app-footer>

@@ -1,0 +1,199 @@
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+#logoF {
+  height: 25px;
+  width: auto;
+  margin-left: -4.5vw;
+}
+
+p {
+  margin: 0 0 15px;
+  color: rgb(250, 250, 250);
+}
+
+body {
+  background: #fff none repeat scroll 0 0;
+  color: #444;
+  font-family: 'Poppins', sans-serif;
+  font-size: 14px;
+  text-align: left;
+  overflow-x: hidden;
+  line-height: 22px;
+}    
+
+
+@media (max-width: 768px) {
+  .back-to-top {
+    bottom: 15px;
+  }
+}
+
+
+.clear {
+  clear: both;
+}
+
+ul {
+  list-style: outside none none;
+  margin-top: -33px;
+  padding: 0px;
+  margin-left: -6.4vw;
+}
+
+.area-padding {
+  padding: 70px 0px 80px;
+}
+
+.area-padding-2 {
+  padding: 70px 0px 50px;
+}
+
+.padding-2 {
+  padding-bottom: 90px;
+}
+
+.section-headline h2 {
+  display: inline-block;
+  font-size: 40px;
+  font-weight: 600;
+  margin-bottom: 70px;
+  position: relative;
+  text-transform: capitalize;
+}
+
+.section-headline h2::after {
+  border: 1px solid #333;
+  bottom: -20px;
+  content: "";
+  left: 0;
+  margin: 0 auto;
+  position: absolute;
+  right: 0;
+  width: 40%;
+}
+
+
+
+/*----------------------------------------*/
+
+/* Footer Area
+/*----------------------------------------*/
+
+.footer-area {
+  padding: 30px 0;
+  background: #0f0f0f;
+}
+.footer-head p {
+  color: rgb(241, 236, 236);
+  font-family: 'Poppins', sans-serif;
+}
+
+.foot {
+  width: 65vw;
+}
+
+.inputfooter {
+  left: 5vw;
+  margin-top: 2vw;
+  font-family: 'Poppins', sans-serif;
+
+}
+
+.form-inline .inputpassword  {
+  width: 20vw;
+  border-radius: 39.25px;
+  font-size: 16px;
+}
+.btn-primary:hover {
+  color: #fff;
+  background-color:#415CE5;
+  border-color:none;
+  font-family: 'Poppins', sans-serif;
+}
+
+.enviar
+{
+  width: 12vw;
+  border-radius: 39.25px;
+  font-size: 16px;
+  background-color: #415CE5;
+  margin-left: 2vw;
+}
+
+.footer-head h4 {
+  color: rgb(255, 249, 249);
+  font-size: 16px;
+  letter-spacing: 2px;
+  padding-bottom: 10px;
+  text-transform: uppercase;
+}
+
+.footer-logo {
+  padding-bottom: 20px;
+}
+
+.footer-logo h2 {
+  position: relative;
+  color: rgb(250, 250, 250);
+  padding: 0;
+  margin-top: 15px;
+  font-size: 30px;
+  line-height: 1;
+  left: -5vw;
+  font-family: 'Poppins', sans-serif;
+}
+
+.footer-p p {
+  padding-left: -1vw;
+  width: 25vw;
+  font-family: 'Poppins', sans-serif;
+  margin-top: -0.5vw;
+}
+
+.icon-footer {
+  margin-left: 1px;
+}
+
+.footer-icons ul li {
+  display: inline-block;
+}
+
+.footer-icons ul li a {
+  color: rgb(245, 243, 243);
+  display: block;
+  font-size: 25px;
+  height: 30px;
+  line-height: 35px;
+  text-align: center;
+  width: 34px;
+  border-collapse: separate;
+  margin-left: 19px;
+}
+
+.flicker-img>a {
+  float: left;
+  padding: 1px;
+  width: 33.33%;
+}
+
+.footer-icons {
+  margin-top: 25px;
+  border-spacing: 6px;
+}
+
+
+
+.popular-tag ul li {
+  display: inline-block;
+}
+
+.footer-content {
+  margin:0;
+}
+.primersection {
+  margin-left: 5vw;
+}

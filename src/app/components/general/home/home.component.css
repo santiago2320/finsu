@@ -1,0 +1,324 @@
+.sectionIn {
+	background: url("../../../../assets/fondos/fondo-home.jpg");
+	background-size: 100% auto;	
+}
+
+.bannerHome {
+	background-color: #FC9A0D;
+	padding-right: 0;
+	position: relative;
+}
+
+#autoAzul {
+	height: auto;
+	width: 40vw;
+	position: absolute;
+	right: 5vw;
+	bottom: 0;
+}
+.contenidofinanciar{
+	padding-left: 12px;
+}
+
+@media only screen and (max-width: 991px){
+	#autoAzul {
+		visibility: hidden;
+	}
+}
+
+
+#containerBannerH {
+   max-width: 90vw;
+}
+
+#paddingHome {
+	padding-bottom: 35px;
+	padding-right: 0;
+	padding-left: 0;
+}
+
+#bottonesBannerHome {
+	padding-bottom: 35px;
+}
+
+.tituloBannerHome {
+	margin-top: 68.58px;
+	font-size: 80px;
+	color: #FFFFFF;
+	font-family: 'Poppins', sans-serif;
+}
+
+.textoBannerHome {
+	color: #FFFFFF;
+	font-size: 20px;
+	text-align: left;
+	line-height: 25px;
+	font-family: 'Poppins', sans-serif;
+}
+
+.hspaceHome{
+	width:10px;
+}
+
+.botonCompradorHome {
+	border-radius: 39.25px;
+	font-size: 16px;
+	background-color: #415CE5;
+	color: #FFFFFF;
+	border-width: 0;
+	padding-top: 15px;
+	padding-bottom: 10.82px;
+	padding-left: 50px;
+	padding-right: 50.3px;
+	margin-top: 36px;
+	margin-left: 12px;
+	font-family: 'Poppins', sans-serif;
+}
+
+.botonInversionistaHome {
+	border-radius: 39.25px;
+	font-size: 16px;
+	background-color: #000000;
+	color: #FFFFFF;
+	border-width: 0;
+	padding-top: 15px;
+	padding-bottom: 10.82px;
+	padding-left: 50px;
+	padding-right: 50.3px;
+	margin-top: 36px;
+	margin-left: 12px;
+	font-family: 'Poppins', sans-serif;
+}
+
+/* --COMO LO HACEMOS -- */
+
+
+#figuraComo {
+	width: 100%;
+	padding: 0px;	
+}
+
+#containerComo {
+	width: 95vw;
+	margin-left: 0;
+	margin-right: 2.5vw;
+}
+.comoLoHacemosHome {
+	margin-top: 5vh;
+	margin-bottom: 5vh;
+}
+
+#tituloComoLoHacemosHome {
+	font-family: 'Poppins', sans-serif;
+	font-size: 30px;
+	text-align: center;
+	margin-bottom: 7vh;
+	margin-top: 3vh;
+	font-weight: 900;
+	color: black;
+}
+
+#iconosComo {
+	position: relative;
+	left: 50%;
+	transform: translate(-50%,0);
+	width: 50%;
+}
+
+#sectionComo {
+	padding: 0px 0px;
+}
+
+#sectComo {
+	position: relative;
+	padding: 0px 0px;
+	top: -4vw;
+	
+}
+
+.textoComoLo {
+	position: absolute;
+	margin-right: 2vw;
+	margin-left: 2vw; 
+	top: 45%;	
+	font-family: 'Poppins', sans-serif;
+	line-height: 20px;
+	font-size: 16px;
+	color: #FFFFFF;
+	text-align: center;
+	font-weight: 400;
+}
+
+.subtitComoLo {
+	font-size: 20px;
+	font-weight: 600;
+}
+
+#contComoLo {
+	padding: 0px 0px;
+}
+
+/* -- EXPLICACION ROLES -- */
+
+
+.griduno{
+	display: grid;
+	grid-template-columns: 100fr;
+	grid-gap: 5px;
+}
+.gridseccion {
+	display: grid;
+	grid-template-columns:50fr 50fr;
+	grid-gap: 35px;
+}
+.gridsecciondos{
+	display: grid;
+	grid-template-columns: 50fr 49fr;
+	margin-top: 30px;
+}
+	
+.tituloseccion{
+	font-family: 'Poppins', sans-serif;
+	font-weight: bold;
+	color: #000000;
+}
+.titulosecciondos {
+	font-family: 'Poppins', sans-serif;
+	font-weight: bold;
+	color: #000000;
+	padding-left: 49px;
+}
+
+.parrafo {
+	font-family: 'Poppins', sans-serif;
+	color: #7B7B7B;
+	padding-top: 20px;
+	padding-right: 40px;
+}
+.botoninvetir{
+	/* padding-left: 36%; */
+	padding-top: 10px;
+}
+.btninvertir{
+	font-family: 'Poppins', sans-serif;
+	color: #FFFFFF;
+	border-radius: 20px;
+	border: none;
+	background-color: #415CE5;
+	padding: 6px;
+	width: 13vw;
+	opacity: 1
+}
+.botonfinanciar{
+	/* padding-left:36%; */
+	padding-top: 10px;
+}
+.btnfinanciar {
+	font-family: 'Poppins', sans-serif;
+	color: #FFFFFF;
+	border-radius: 20px;
+	border: none;
+	background-color: #415CE5;
+	padding: 6px;
+	width: 13vw;
+	opacity: 1
+}
+.imgsectionuna {
+	max-width: 100vh;
+	opacity: 1;	
+}
+.imgsectiondos{
+	max-width: 100%;
+	opacity: 1;
+}
+.txtsectiondos {
+	padding-left: 49px;
+
+}
+
+@media only screen and (max-width: 575px){
+
+}
+
+@media only screen and (max-width: 767px){
+    
+}
+
+@media only screen and (max-width: 991px){
+    
+}
+
+
+/* -- CARACTERISTICAS -- */
+
+
+
+#allCaracHome {
+	margin-top: 10vh;
+	margin-bottom: 20vh;
+	padding: 0;
+}
+
+#aliadosTit {
+	margin-top: 10vh;
+	text-align: center;	
+}
+
+.aliadosTitulo {
+	font-family: 'Poppins', sans-serif;
+	font-size: 30px;
+	color: #000000;	
+	font-weight: 900;	
+}
+
+#imgCarac {
+	position: relative;
+	left: 50%;
+	transform: translate(-50%,0);
+	width: 95%;
+	height: auto;
+}
+
+#caracEmpty {
+	height: 100%;
+    float: left;
+    width: 4vw;
+    padding: 0;   
+}
+
+#contCaracHome {
+	margin-right: 0px;
+	margin-left: 0px;
+	position: relative;
+	/* 
+	left: 50%;
+	transform: translate(-50%,0);
+	 */
+	max-width: 100vw;
+}
+
+#iconsCaracHome {	
+	padding-right: 0;
+	padding-left: 0;
+	float: left;
+    padding-top: 15px;
+    margin-right: 2vw;
+}
+
+#titCarac {
+	text-align: center;
+	font-size: 20px;	
+	font-family: 'Poppins', sans-serif;
+	color: #000000;
+	margin-top: 15px;
+	margin-bottom: 5px;
+	font-weight: 600;
+}
+
+#textCarac {
+	text-align: center;
+	font-size: 16px;
+	line-height: 20px;
+	font-family: 'Poppins', sans-serif;
+	color: #7B7B7B;
+}

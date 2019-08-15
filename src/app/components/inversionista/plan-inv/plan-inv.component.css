@@ -1,0 +1,43 @@
+#grid1{
+    display: grid;
+	grid-template-columns: 1fr;
+    background-color:#F5F5F5;
+    padding-top: 20px;
+}
+#grid2{
+    display: grid;
+	grid-template-columns: 10% 40% 40% 10%;
+    background-color:#F5F5F5;
+    padding-bottom: 45px;
+}
+#boton1{
+    border-radius: 39.25px;
+	font-size: 16px;
+    background-color:#000000;
+    color: white;
+	border-width: 0;
+	padding-top: 16.07px;
+    padding-bottom: 11.6px;
+    width: -webkit-fill-available;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+    margin-top: 24.5px;
+    margin-right: 12px;
+}
+#boton2{
+    border-radius: 39.25px;
+	font-size: 16px;
+    background-color:#415CE5;
+    color: white;
+	border-width: 0;
+	padding-top: 16.07px;
+    padding-bottom: 11.6px;
+    width: -webkit-fill-available;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+    margin-top: 24.5px;
+    margin-left: 12px;
+}
+.celda {
+	/*border: 2px solid red;*/
+}

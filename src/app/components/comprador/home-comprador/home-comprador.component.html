@@ -1,0 +1,151 @@
+<div class="bannerFinanciar">
+	<img id="mujerFinanciar" src="assets/img/m2-img-woman.png">
+		<div class="container">
+			<div class="row">
+				<div class="col-12 col-sm-12 col-md-12 col-lg-6" id="textoBannerFinan">
+					<h1 class="tituloBannerFinanciar">
+						<b>Financiar</b>
+					</h1>
+					<h3 class="textoBannerFinanciar">
+						Paga tu seguro a cuotas desde tu computador o celular. Luego de pagar la cuota inicial a la aseguradora, Finsu le avisará a un inversionista para que financie el saldo correspondiente
+					</h3>
+					<div class="col-xs-6">
+						<button class="botonRegistroFinanciar" routerLink="/comprador/registroComprador">Quiero financiar</button>
+					</div>
+					<div class="col-xs-6">						
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<div class="sectionIn">
+		<div class="pasosInvertir">
+			<div class="container">
+				<div class="row">	
+					<div class="col-xs-6 col-sm-6 col-md-3 col-lg-3">
+						<div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+							<img id="iconsPasosInvertir" src="../../assets/iconos/registro.png">
+						</div>
+						<div class="col-xs-12 col-sm-12 col-md-12 col-lg-12" id="titulosPasosInvertir">
+							Registrate
+						</div>
+						<div class="col-xs-12 col-sm-12 col-md-12 col-lg-12" id="textoPasosInvertir">
+							Ingresa tus datos y crea tu usuario
+						</div>					
+					</div>		
+					<div class="col-xs-6 col-sm-6 col-md-3 col-lg-3">
+						<div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+							<img id="iconsPasosInvertir" src="../../assets/iconos/cotiza.png">
+						</div>
+						<div class="col-xs-12 col-sm-12 col-md-12 col-lg-12" id="titulosPasosInvertir">
+							Cotiza
+						</div>
+						<div class="col-xs-12 col-sm-12 col-md-12 col-lg-12" id="textoPasosInvertir">
+							Con los datos de tu póliza podrás conocer tu plan de pagos
+						</div>						
+					</div>
+					<div class="col-xs-6 col-sm-6 col-md-3 col-lg-3">
+						<div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+							<img id="iconsPasosInvertir" src="../../assets/iconos/acepta-terminos.png">
+						</div>
+						<div class="col-xs-12 col-sm-12 col-md-12 col-lg-12" id="titulosPasosInvertir">
+							Acepta Términos
+						</div>
+						<div class="col-xs-12 col-sm-12 col-md-12 col-lg-12" id="textoPasosInvertir">
+							Conoce las condiciones de tu financiación
+						</div>					
+					</div>
+					<div class="col-xs-6 col-sm-6 col-md-3 col-lg-3">
+						<div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+							<img id="iconsPasosInvertir" src="../../assets/iconos/comienza-financiacion.png">
+						</div>
+						<div class="col-xs-12 col-sm-12 col-md-12 col-lg-12" id="titulosPasosInvertir">
+							Comienza Financiación
+						</div>
+						<div class="col-xs-12 col-sm-12 col-md-12 col-lg-12" id="textoPasosInvertir">
+							Con este pago inicia tu financiación y disfrutas de tu seguro	
+						</div>					
+					</div>					
+				</div>
+			</div>		
+		</div>
+		<div id="grid1" class="celda">
+		    <div></div>
+		    <div id="grid2" class="celda">
+		        <div>
+		        	<h3 class="centro popSemibold size30">Simula tu financiación</h3>
+		        </div>
+		        <div id="grid3" class="celda">
+		            <div id="tituloSimula" class="popRegular size16 labelFinsu">
+		            	Ingresa el valor del seguro a financiar
+		            </div>
+		            <div id="grid4" class="celda">
+		                <div class="divi sliderFinsu">
+		                	<ng5-slider (userChange)="actualizarLabel()" [(value)]="minValue" [(highValue)]="maxValue" [options]="options"></ng5-slider>
+		                </div>
+		                <div class="divi">
+		                	<input type="text" [(ngModel)]="labelValue" class="inputFinsu" disabled>
+		                </div>
+		            </div>
+		            <div id="grid5" class="celda">
+		                <div class="divi popRegular size16 labelFinsu">Porcentaje de la couta inicial</div>
+		                <div class="divi popRegular size16 labelCouta labelFinsu">Selecciona el número de coutas de tu seguro</div>
+		                <div class="divi"></div>
+		                <div class="divi">
+		                	<div class="selectContainer relative selectPorcentaje">
+		                		<mat-icon class="selectIcon">keyboard_arrow_down</mat-icon>
+			                	<select class="inputFinsu">
+							       <option selected>20 porciento</option>
+							       <option value="1">opcion1</option>
+							       <option value="2">opcion2</option>
+							    </select>
+		                	</div>		                	
+		                </div>
+		                <div class="divi">
+		                	<div class="selectContainer relative selectCouta">
+		                		<mat-icon class="selectIcon">keyboard_arrow_down</mat-icon>
+			                	<select class="inputFinsu">
+							       <option selected>6 Coutas</option>
+							       <option value="1">opcion1</option>
+							       <option value="2">opcion2</option>
+							    </select>
+		                	</div>
+		                </div>
+		                <div class="divi">
+		                	<button class="btnFinsuBlue" routerLink="/comprador/simular">Cotizar</button>
+		                </div>
+		            </div>
+		        </div>
+		    </div>
+		    <div></div>
+		</div>
+		<app-tablecomprador></app-tablecomprador>
+		<div class="textContinuar">
+			<div class="container">
+				<div class="row">
+					<div class="col-12 col-sm-12 col-md-12 col-lg-12">
+						<h2 class="tituloContinuar">
+							<b>Continúa con el proceso para financiar</b>
+						</h2>
+					</div>
+					<div class="col-12 col-sm-12 col-md-12 col-lg-12 textoContinuar">
+						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quiepakis nostrud exercitation ullamco laboris nsi ut aliquip ex ea comepmodo consetquat. Duis aute irure dolor in reprehenderit in voluptate velit esse cfgillum dolore eutpe fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt inpeku culpa qui officia deserunt mollit anim id est laborum. </p>
+						<p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium poeyi doloremque laudantium, totam rem aperiam, eaque ipsa quae apsb illo inventore veritatis et quasi architecto beiatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, seprid quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliqueam quaerat voluptatem.</p>
+					</div>
+					<div class="col-5 col-sm-5 col-md-5 col-lg-5">		
+					</div>
+					<div class="col-2 col-sm-2 col-md-2 col-lg-2 relative">
+						<button class="btnRegistrarme" routerLink="/comprador/verMas">Registrarme</button>
+					</div>
+					<div class="col-5 col-sm-5 col-md-5 col-lg-5">
+
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	
+	
+	<app-footer></app-footer>
+
