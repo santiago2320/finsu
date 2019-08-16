@@ -9,6 +9,13 @@
 	position: relative;
 }
 
+ .containerBanner {
+	padding-left: 16px;
+    margin-left: 4vw;
+    padding-right: 16px;
+    margin-right: 4vw;
+ }
+
 #hombreInvertir {
 	height: auto;
 	width: 45vw;
@@ -83,6 +90,7 @@
 	font-size: 16px;
 	font-family: 'Poppins', sans-serif;
 	color: #7B7B7B;
+	padding: 0px;
 }
 
 

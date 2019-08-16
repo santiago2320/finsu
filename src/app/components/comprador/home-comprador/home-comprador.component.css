@@ -9,6 +9,14 @@
 	position: relative;
 }
 
+.containerBanner {
+	padding-left: 16px;
+    margin-left: 4vw;
+    padding-right: 16px;
+    margin-right: 4vw;
+ }
+
+
 #mujerFinanciar {
 	height: auto;
 	width: 45vw;
@@ -59,7 +67,7 @@
 	margin-bottom: 4vh;	
 }
 
-#rowPI {	
+/*#rowPI {	
 	
 }
 
@@ -86,7 +94,7 @@
 #rowPasosInvIn {
 	margin: 0;
 	padding: 0;
-}
+}*/
 
 #iconsPasosInvertir {
 	width: 70%;
@@ -104,7 +112,7 @@
 	color: #000000;
 	margin-top: 2vh;
 	margin-bottom: 2vh;
-	padding: 0;
+	/*padding: 0;*/
 }
 
 #textoPasosInvertir {
@@ -112,7 +120,7 @@
 	font-size: 16px;
 	font-family: 'Poppins', sans-serif;
 	color: #7B7B7B;
-	padding: 0;
+	padding: 0px;
 }
 
 /* --- ESTILOS TEXTO CONTINUAR -- */
