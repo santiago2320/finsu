@@ -56,7 +56,36 @@
 
 .pasosInvertir {	
 	padding-top: 4vh;
-	margin-bottom: 4vh;
+	margin-bottom: 4vh;	
+}
+
+#rowPI {	
+	
+}
+
+#contPasosInv {
+	margin: 4vw;
+	padding: 16px;
+}
+
+#contPasosInvI {
+	margin: 0;
+	padding: 0;
+}
+
+#rowPasosInvE {
+	margin: 0;
+	padding: 0;
+}
+
+#rowPasosInvEx {
+	margin: 0;
+	padding: 0;
+}
+
+#rowPasosInvIn {
+	margin: 0;
+	padding: 0;
 }
 
 #iconsPasosInvertir {
@@ -75,6 +104,7 @@
 	color: #000000;
 	margin-top: 2vh;
 	margin-bottom: 2vh;
+	padding: 0;
 }
 
 #textoPasosInvertir {
@@ -82,6 +112,7 @@
 	font-size: 16px;
 	font-family: 'Poppins', sans-serif;
 	color: #7B7B7B;
+	padding: 0;
 }
 
 /* --- ESTILOS TEXTO CONTINUAR -- */

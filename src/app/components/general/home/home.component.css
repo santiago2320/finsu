@@ -138,8 +138,10 @@
 
 .textoComoLo {
 	position: absolute;
-	margin-right: 2vw;
-	margin-left: 2vw; 
+	padding-left: 16px;
+	padding-right: 16px;
+	margin-right: 4vw;
+	margin-left: 4vw; 
 	top: 45%;	
 	font-family: 'Poppins', sans-serif;
 	line-height: 20px;
