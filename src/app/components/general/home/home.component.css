@@ -174,7 +174,7 @@
 .gridsecciondos{
 	display: grid;
 	grid-template-columns: 50fr 49fr;
-	margin-top: 30px;
+	margin-top: 68px;
 }
 	
 .tituloseccion{
@@ -186,14 +186,15 @@
 	font-family: 'Poppins', sans-serif;
 	font-weight: bold;
 	color: #000000;
-	padding-left: 49px;
+	padding-left: 71px;
 }
 
 .parrafo {
 	font-family: 'Poppins', sans-serif;
 	color: #7B7B7B;
 	padding-top: 20px;
-	padding-right: 40px;
+	padding-right: 51px;
+	text-align: justify;
 }
 .botoninvetir{
 	padding-left: 36%;
@@ -204,7 +205,7 @@
 	color: #FFFFFF;
 	border-radius: 20px;
 	border: none;
-	background-color: #415CE5;
+	background-color: #415ce5;
 	padding: 6px;
 	width: 13vw;
 	opacity: 1
@@ -224,27 +225,90 @@
 	opacity: 1
 }
 .imgsectionuna {
-	max-width: 100vh;
+	width: 100%;
 	opacity: 1;	
 }
 .imgsectiondos{
-	max-width: 100%;
+	width: 100%;
 	opacity: 1;
 }
 .txtsectiondos {
-	padding-left: 49px;
+	padding-left: 71px;
 
+}
+.txtsectionuno {
+	padding-right: 22px;
 }
 
 @media only screen and (max-width: 575px){
+	.gridseccion {
+		display: grid;
+	    grid-template-columns: 1fr;
+	}
+	.imgsectionuna {
+		max-width: 100%;
+		opacity: 1;
+	}
+	.imgsectiondos{
+		max-width: 100%;
+		opacity: 1;
+	}	
+
+	.gridsecciondos {
+		display: grid;
+		grid-template-columns: 1fr;
+	}
 
 }
 
 @media only screen and (max-width: 767px){
+	.gridseccion {
+		display: grid;
+	    grid-template-columns: 1fr;
+	}
+	.gridsecciondos {
+		display: grid;
+		grid-template-columns: 1fr;
+	}
     
 }
 
 @media only screen and (max-width: 991px){
+	.gridseccion {
+		display: grid;
+	    grid-template-columns: 1fr;
+	}
+	.imgsectionuna {
+		grid-row-start: 2;
+  		grid-row-end: 3;
+		opacity: 1;
+	}
+	.imgsectiondos{
+		opacity: 1;
+		border-radius: 0px 73px 73px 0px;
+	}
+	.gridsecciondos {
+		display: grid;
+		grid-template-columns: 1fr;
+	}
+	#sectiontexto {
+  		grid-row-start: 1;
+  		grid-row-end: 2;
+		
+	}
+	.tituloseccion {
+		padding-left: 54px;
+	}
+	.txtsectionuno {
+		padding-left: 54px;
+	}
+	.titulosecciondos {
+		padding-left: 54px;
+	}
+	.txtsecciondos {
+		padding-left: 54px;
+	}
+
     
 }
 
