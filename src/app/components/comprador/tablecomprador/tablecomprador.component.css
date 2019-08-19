@@ -37,7 +37,8 @@
     margin-top: 4vw;
     padding-bottom: 45px;
     padding-top: 45px;
-    background: #F5950C;
+    background: url(../../../../assets/fondos/fondo-tabla.png);
+    background-size: 100% auto;
     border-radius: 30px;
     width: 40vw;
     
