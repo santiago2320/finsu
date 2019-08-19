@@ -1,3 +1,13 @@
 .celda {
 	/*border: 2px solid red;*/
 }
+
+.arrowRight {
+	position: absolute;
+    top: 26%;
+    -webkit-transform: translateY(-18%);
+    /* transform: translateY(-50%); */
+    right: 4%;
+    color: white;
+}
+
