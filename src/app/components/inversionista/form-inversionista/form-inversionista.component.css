@@ -26,6 +26,8 @@
     padding-left: 99.25px;
     padding-right: 99.25px;
     border-radius: 39px;
+    border: 0px solid #CECECE;
+    color: white;
   }
 
   .formRegistro {
@@ -50,8 +52,9 @@
     /*padding-top: 5px;
     padding-bottom: 7.82px;*/
     padding-left: 92.25px;
-    padding-right: 98.25px;
+    padding-right: 96.25px;
     border-radius: 39px;
+    border: 0px solid #CECECE;
   }
  
   .btniniciar {
