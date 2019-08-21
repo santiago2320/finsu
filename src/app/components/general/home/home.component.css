@@ -1,11 +1,13 @@
 .sectionIn {
 	background: url("../../../../assets/fondos/fondo-home.jpg");
-	background-size: 100% auto;	
+	background-repeat: no-repeat;
+	background-size: cover;
 }
 
 .bannerHome {
 	background: url("../../../../assets/fondos/fondo-banner-home.jpg");
-	background-size: 100% auto;
+	background-repeat: no-repeat;
+	background-size: cover;
 	padding-bottom: 20vh;
 	position: relative;
 }
